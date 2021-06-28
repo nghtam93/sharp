@@ -1,23 +1,5 @@
+@charset "UTF-8";
 @import url(../../libs/wowjs/css/animate.css);
-@font-face {
-  font-family: 'YuMincho';
-  src: url("../fonts/yumin.ttf"); }
-@font-face {
-  font-family: 'YuMinchoDemi';
-  src: url("../fonts/yumindb.ttf"); }
-@font-face {
-  font-family: 'Cambria';
-  src: url("../fonts/Cambria.ttf"); }
-@font-face {
-  font-family: 'cambriab';
-  src: url("../fonts/cambriab.ttf"); }
-@font-face {
-  font-family: 'Cinzel';
-  src: url("../fonts/Cinzel-Black.ttf");
-  src: url("../fonts/Cinzel-Bold.ttf");
-  src: url("../fonts/Cinzel-ExtraBold.ttf");
-  src: url("../fonts/Cinzel-Regular.ttf");
-  src: url("../fonts/Cinzel-SemiBold.ttf"); }
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -1340,7 +1322,10 @@ template {
 
 body {
   color: #1A1A1A;
-  font: 16px/1.8 'YuMincho'; }
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8; }
   @media (max-width: 575px) {
     body {
       font-size: 14px;
@@ -1415,7 +1400,7 @@ img {
   border: none;
   padding: .375rem .75rem;
   font-size: 1rem;
-  font-family: 'YuMinchoDemi';
+  font-weight: bold;
   border-radius: 0;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
 
@@ -1708,7 +1693,7 @@ body.show-menu {
     grid-gap: 30px; }
     .footer__menu .menu-item a {
       display: block;
-      font-family: 'YuMinchoDemi';
+      font-weight: bold;
       border-bottom: 1px solid #fff;
       color: #fff; }
   .footer__socical {
@@ -1755,7 +1740,7 @@ body.show-menu {
     height: 50px; } }
 .section__title {
   font-size: 28px;
-  font-family: 'YuMinchoDemi';
+  font-weight: bold;
   color: #4d4d4d;
   line-height: 35px; }
   .section__title.style-2 {
@@ -1786,8 +1771,10 @@ body.show-menu {
     color: #fff;
     position: absolute;
     top: 10px;
-    right: 15px;
-    font-family: 'YuMinchoDemi'; }
+    right: 10px;
+    padding-left: 33px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57); }
   .home-banner .banner-text {
     position: absolute;
     left: 0;
@@ -1988,7 +1975,8 @@ body.show-menu {
     margin-bottom: 20px; }
   .home-info .el__box {
     padding: 0px 15px 16px 0px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     height: 215px;
     margin-bottom: 20px;
     /* width */
@@ -2038,15 +2026,21 @@ body.show-menu {
       text-orientation: upright;
       font-size: 24px;
       color: #fff;
-      font-family: 'YuMinchoDemi';
+      font-weight: bold;
       letter-spacing: 5px;
-      margin: 0;
-      line-height: 55px;
+      margin: 0 10px 0 0 !important;
       text-align: left;
       text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57);
-      min-height: 110%; }
+      min-height: 110%;
+      line-height: normal; }
       .home-concept .el__content p.last-child {
-        margin-top: -12px; }
+        margin: -12px 0 0 0 !important; }
+      @media (max-width: 376px) {
+        .home-concept .el__content p {
+          min-height: 125%; } }
+      @media (max-width: 340px) {
+        .home-concept .el__content p {
+          min-height: 144%; } }
 
 .home-information {
   padding: 50px 30px 20px; }
@@ -2063,7 +2057,7 @@ body.show-menu {
   .home-information .el__box {
     border: 4px solid rgba(184, 172, 125, 0.8);
     padding: 10px 10px;
-    font-family: 'YuMinchoDemi'; }
+    font-weight: bold; }
     .home-information .el__box .text {
       font-size: 24px;
       color: rgba(184, 172, 125, 0.8);
@@ -2083,7 +2077,7 @@ body.show-menu {
     background: rgba(0, 169, 157, 0.3);
     padding: 10px 5px; }
     .home-information .el__bg .phone {
-      font-family: 'YuMinchoDemi';
+      font-weight: bold;
       font-size: 18px;
       color: #00A99D;
       margin-top: 7px; }
@@ -2293,7 +2287,7 @@ body.show-menu {
     background: rgba(255, 255, 255, 0.3); }
   .home-service .el__title {
     width: calc(100% - 70px);
-    font-family: 'YuMinchoDemi';
+    font-weight: bold;
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -2342,7 +2336,7 @@ body.show-menu {
       font-weight: 500; }
     .home-clinic .el__header .section__sub {
       font-size: 16px;
-      font-family: 'YuMinchoDemi'; }
+      font-weight: bold; }
   .home-clinic .el__info {
     padding: 25px 0 30px; }
     .home-clinic .el__info th {
@@ -2352,7 +2346,9 @@ body.show-menu {
       color: #1A1A1A; }
     .home-clinic .el__info td {
       font-size: 16px;
-      color: #1A1A1A; }
+      color: #1A1A1A !important; }
+      .home-clinic .el__info td a {
+        color: #1A1A1A !important; }
   .home-clinic .el__content {
     background: #00A79B;
     padding: 20px; }
@@ -2376,13 +2372,15 @@ body.show-menu {
         content: none; }
   .home-clinic .el__title {
     font-size: 16px;
-    font-family: 'YuMinchoDemi';
+    font-weight: bold;
     text-align: center;
     color: #fff;
     margin-bottom: 10px; }
   .home-clinic .el__excerpt {
     font-size: 16px;
-    color: #000; }
+    color: #000 !important; }
+    .home-clinic .el__excerpt a {
+      color: #1A1A1A !important; }
 
 .home-facilities {
   position: relative;
