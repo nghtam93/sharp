@@ -1411,6 +1411,7 @@ img {
   width: 100%;
   border: none;
   border-radius: 0px;
+  font-weight: bold;
   min-width: 200px;
   box-shadow: none;
   margin-bottom: 15px;
@@ -1612,6 +1613,10 @@ img {
 .animated.animation-button:before, .animated.animation-button-2:before {
   transform: translateX(100%); }
 
+@font-face {
+  font-family: 'cambria';
+  font-weight: 400;
+  src: url("../fonts/cambria.ttf"); }
 .header {
   max-width: 960px;
   margin: 0 auto; }
@@ -1625,7 +1630,8 @@ img {
     padding-left: 10px;
     font-size: 18px;
     line-height: 30px;
-    color: #4d4d4d; }
+    color: #4d4d4d;
+    font-family: 'DNPShueiMinPr6-M', sans-serif; }
     .header-logo img {
       max-width: 30px;
       margin-right: 6px; }
@@ -1750,9 +1756,10 @@ body.show-menu {
     .section__title.style-2 span {
       display: inline-block;
       background: #00A79B;
-      padding: 0 17px; }
+      padding: 0 17px;
+      font-weight: bold; }
 .section__sub {
-  font-family: 'Cinzel';
+  font-family: "Cinzel", serif;
   font-weight: 500;
   font-size: 21px;
   color: #00a99d; }
@@ -1884,6 +1891,22 @@ body.show-menu {
   background: #00A99D;
   color: #fff;
   padding: 5px 10px 7px 15px; }
+  .home-intro__text {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 50px; }
+    @media (max-width: 600px) {
+      .home-intro__text {
+        padding-right: 23px; } }
+    @media (max-width: 479px) {
+      .home-intro__text {
+        padding-right: 15px; } }
+    @media (max-width: 400px) {
+      .home-intro__text {
+        padding-right: 7px; } }
+    @media (max-width: 353px) {
+      .home-intro__text {
+        font-size: 12px; } }
   .home-intro__meta {
     font-size: 18px;
     line-height: 1.8; }
@@ -1956,9 +1979,6 @@ body.show-menu {
     .table-schedule thead th:first-child {
       min-width: auto; } }
   @media (max-width: 600px) {
-    .table-schedule {
-      font-size: 16px; } }
-  @media (max-width: 479px) {
     .table-schedule .schedule {
       font-size: 16px; }
     .table-schedule thead th:first-child {
@@ -1966,8 +1986,11 @@ body.show-menu {
     .table-schedule th, .table-schedule td {
       min-width: 25px; } }
   @media (max-width: 353px) {
-    .table-schedule thead th:first-child {
-      min-width: 85px; } }
+    .table-schedule {
+      font-size: 12px; }
+      .table-schedule thead th:first-child {
+        min-width: 85px;
+        font-size: 14px; } }
 
 .home-info {
   padding: 20px 30px 60px; }
@@ -2001,7 +2024,7 @@ body.show-menu {
     .home-info .el__item:first-child {
       border-top: 2px solid rgba(26, 26, 26, 0.6); }
     .home-info .el__item__title {
-      font-family: 'Cambria';
+      font-family: 'cambria';
       padding-right: 10px;
       color: #1a1a1a; }
     .home-info .el__item__excerpt {
@@ -2048,12 +2071,14 @@ body.show-menu {
     max-width: 40px; }
   .home-information .el__title {
     font-size: 28px;
-    color: #1A1A1A;
-    margin-bottom: 0; }
+    color: #4d4d4d;
+    margin-bottom: 0;
+    font-family: 'DNPShueiMinPr6-M', sans-serif; }
   .home-information .el__excerpt {
     font-size: 16px;
     color: #1A1A1A;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    line-height: 25px; }
   .home-information .el__box {
     border: 4px solid rgba(184, 172, 125, 0.8);
     padding: 10px 10px;
@@ -2061,7 +2086,8 @@ body.show-menu {
     .home-information .el__box .text {
       font-size: 24px;
       color: rgba(184, 172, 125, 0.8);
-      line-height: 32px; }
+      line-height: 32px;
+      letter-spacing: 2px; }
     .home-information .el__box .label {
       margin-bottom: 5px; }
       .home-information .el__box .label span {
@@ -2081,6 +2107,14 @@ body.show-menu {
       font-size: 18px;
       color: #00A99D;
       margin-top: 7px; }
+    .home-information .el__bg .green span {
+      background: #00A99D;
+      color: #fff;
+      font-size: 18px;
+      padding: 0 26px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: inline-block; }
   .home-information .home-intro {
     margin-left: 0;
     margin-top: 10px; }
@@ -2112,7 +2146,7 @@ body.show-menu {
       width: 100%;
       background: rgba(184, 172, 125, 0.8);
       padding: 0;
-      font-family: 'Cinzel';
+      font-family: "Cinzel", serif;
       font-weight: 500;
       font-size: 30px;
       border-radius: 0;
@@ -2125,9 +2159,11 @@ body.show-menu {
       align-items: center;
       justify-content: center; }
     .home-contact__box p {
-      font-size: 14px; }
+      font-size: 14px;
+      margin: 0 -10px; }
   .home-contact__link .btn {
-    font-size: 24px; }
+    font-size: 24px;
+    font-family: 'cambria'; }
   .home-contact-text {
     font-size: 16px;
     margin-bottom: 10px; }
@@ -2174,7 +2210,8 @@ body.show-menu {
     font-size: 24px;
     line-height: 40px;
     color: #1A1A1A;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-weight: bold; }
     .home-greeting .el__title span {
       display: inline-block;
       background: #fff;
@@ -2193,7 +2230,18 @@ body.show-menu {
     .home-greeting .el__user__name {
       margin-left: -7px; }
     .home-greeting .el__user__content {
-      padding: 0 5px 10px 30px; }
+      padding: 0 5px 10px 30px;
+      font-size: 16px; }
+    .home-greeting .el__user__position {
+      display: inline-block;
+      font-weight: bold;
+      color: #000;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 3px 23px;
+      background: #fff;
+      letter-spacing: 1px; }
   .home-greeting .el__readmore {
     position: absolute;
     right: 0;
@@ -2219,7 +2267,9 @@ body.show-menu {
   line-height: 30px;
   color: #fff;
   padding: 0 15px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "Cinzel", serif;
+  font-weight: 500; }
 .home-featured .el__content {
   position: absolute;
   left: 0;
@@ -2227,10 +2277,11 @@ body.show-menu {
   width: 100%;
   margin-right: 30px; }
 .home-featured .el__title {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 40px;
   color: #1A1A1A;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-weight: bold; }
   .home-featured .el__title span {
     display: inline-block;
     background: #fff;
@@ -2297,12 +2348,13 @@ body.show-menu {
 
 .home-sns {
   margin: 0 30px 25px;
-  background: rgba(184, 172, 125, 0.8); }
+  background: rgba(184, 172, 125, 0.8);
+  padding-bottom: 30px; }
   .home-sns .el__header {
     max-width: 50%;
     margin: 0 auto 25px; }
   .home-sns .el__title {
-    font-family: 'Cinzel';
+    font-family: "Cinzel", serif;
     font-weight: 500;
     text-align: center;
     font-size: 36px;
@@ -2324,7 +2376,9 @@ body.show-menu {
     text-align: center;
     font-size: 24px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57);
-    color: #fff; }
+    color: #fff;
+    font-family: 'cambria';
+    margin-bottom: 30px; }
 
 .home-clinic {
   padding: 50px 30px 30px; }
@@ -2332,7 +2386,7 @@ body.show-menu {
     text-align: center; }
     .home-clinic .el__header .section__title {
       font-size: 36px;
-      font-family: 'Cinzel';
+      font-family: "Cinzel", serif;
       font-weight: 500; }
     .home-clinic .el__header .section__sub {
       font-size: 16px;
@@ -2343,7 +2397,8 @@ body.show-menu {
       width: 26%;
       text-align: left;
       font-size: 16px;
-      color: #1A1A1A; }
+      color: #1A1A1A;
+      font-weight: 400; }
     .home-clinic .el__info td {
       font-size: 16px;
       color: #1A1A1A !important; }
@@ -2398,7 +2453,7 @@ body.show-menu {
   .home-facilities .el__header {
     margin-bottom: 10px; }
     .home-facilities .el__header .section__sub.style-2 {
-      color: #1A1A1A; }
+      color: #4d4d4d; }
   .home-facilities .el__excerpt {
     padding: 0 30px;
     font-size: 16px;
@@ -2439,5 +2494,7 @@ body.show-menu {
   .home-facilities .el__link {
     margin-left: 30px;
     margin-top: -4px; }
+    .home-facilities .el__link .btn {
+      font-size: 14px; }
 
 /*# sourceMappingURL=main.css.map */

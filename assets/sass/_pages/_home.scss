@@ -13,12 +13,13 @@
                 display: inline-block;
                 background: #00A79B;
                 padding: 0 17px;
+                font-weight: bold;
             }
         }
     }
 
     &__sub {
-        font-family: 'Cinzel';
+        font-family: "Cinzel", serif;
         font-weight: 500;
         font-size: 21px;
         color: #00a99d;
@@ -187,6 +188,24 @@
     background: $color-green;
     color: #fff;
     padding: 5px 10px 7px 15px;
+
+    &__text {
+        font-size: 14px;
+        text-align: right;
+        padding-right: 50px;
+        @media  (max-width: 600px ){
+            padding-right: 23px;
+        }
+        @media  (max-width: 479px ){
+            padding-right: 15px;
+        }
+        @media  (max-width: 400px ){
+            padding-right: 7px;
+        }
+        @media  (max-width: 353px ){
+            font-size: 12px;
+        }
+    }
     &__meta{
         font-size: 18px;
         line-height: 1.8;
@@ -281,7 +300,6 @@
             }
         }
     }
-
     @media ( max-width: 991px ) {
         th, td {
             min-width: 60px;
@@ -300,9 +318,6 @@
         }
     }
     @media  (max-width: 600px ){
-        font-size: 16px;
-    }
-    @media  (max-width: 479px ){
 
         .schedule {
             font-size: 16px;
@@ -316,8 +331,10 @@
         }
     }
     @media  (max-width: 353px ){
+        font-size: 12px;
         thead th:first-child {
             min-width: 85px;
+            font-size: 14px;
         }
     }
 }
@@ -368,7 +385,7 @@
                 border-top: 2px solid rgba(26, 26, 26, 0.6);
             }
             &__title{
-                font-family: 'Cambria';
+                font-family: 'cambria';
                 padding-right: 10px;
                 color: #1a1a1a;
             }
@@ -436,13 +453,15 @@
         }
         &__title {
             font-size: 28px;
-            color: #1A1A1A;
+            color: #4d4d4d;
             margin-bottom: 0;
+            font-family: 'DNPShueiMinPr6-M', sans-serif;
         }
         &__excerpt {
             font-size: 16px;
             color:$color-primary;
             margin-bottom: 5px;
+            line-height: 25px;
         }
         &__box {
             border: 4px solid rgba(184, 172, 125,0.8);
@@ -453,6 +472,7 @@
                 font-size: 24px;
                 color: rgba(184, 172, 125,0.8);
                 line-height: 32px;
+                letter-spacing: 2px;
             }
             .label {
                 margin-bottom: 5px;
@@ -482,6 +502,17 @@
                 font-size: 18px;
                 color: #00A99D;
                 margin-top: 7px;
+            }
+            .green {
+                span {
+                    background: #00A99D;
+                    color: #fff;
+                    font-size: 18px;
+                    padding: 0 26px;
+                    font-weight: bold;
+                    margin-bottom: 8px;
+                    display: inline-block;
+                }
             }
         }
     }
@@ -529,7 +560,7 @@
             width: 100%;
             background: rgba(184, 172, 125, 0.8);
             padding: 0;
-            font-family: 'Cinzel';
+            font-family: "Cinzel", serif;
             font-weight: 500;
             font-size: 30px;
             border-radius: 0;
@@ -545,12 +576,14 @@
         }
         p {
             font-size: 14px;
+            margin: 0 -10px;
         }
     }
 
     &__link {
         .btn {
             font-size: 24px;
+            font-family: 'cambria';
         }
     }
 
@@ -628,6 +661,7 @@
             line-height: 40px;
             color: $color-primary;
             margin-bottom: 15px;
+            font-weight: bold;
 
             span {
                 display: inline-block;
@@ -656,6 +690,19 @@
 
             &__content {
                 padding: 0 5px 10px 30px;
+                font-size: 16px;
+            }
+
+            &__position {
+                display: inline-block;
+                font-weight: bold;
+                color: #000;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 3px 23px;
+                background: #fff;
+                letter-spacing: 1px;
             }
         }
         &__readmore {
@@ -692,6 +739,8 @@
             color: #fff;
             padding: 0 15px;
             text-transform: uppercase;
+            font-family: "Cinzel", serif;
+            font-weight: 500;
         }
         &__content {
             position: absolute;
@@ -701,10 +750,11 @@
             margin-right: 30px;
         }
         &__title {
-            font-size: 24px;
+            font-size: 26px;
             line-height: 40px;
             color: $color-primary;
             margin-bottom: 15px;
+            font-weight: bold;
 
             span {
                 display: inline-block;
@@ -800,6 +850,7 @@
 .home-sns {
     margin: 0 30px 25px;
     background: rgba(184, 172, 125, 0.8);
+    padding-bottom: 30px;
 
     .el {
         &__header {
@@ -807,7 +858,7 @@
             margin: 0 auto 25px;
         }
         &__title {
-            font-family: 'Cinzel';
+            font-family: "Cinzel", serif;
             font-weight: 500;
             text-align: center;
             font-size: 36px;
@@ -836,6 +887,8 @@
             font-size: 24px;
             text-shadow: 0px 0px 10px rgba(0,0,0,0.57);
             color: #fff;
+            font-family: 'cambria';
+            margin-bottom: 30px;
         }
     }
 }
@@ -848,7 +901,7 @@
 
             .section__title {
                 font-size: 36px;
-                font-family: 'Cinzel';
+                font-family: "Cinzel", serif;
                 font-weight: 500;
             }
 
@@ -864,6 +917,7 @@
                 text-align: left;
                 font-size: 16px;
                 color: $color-primary;
+                font-weight: 400;
             }
 
             td {
@@ -942,7 +996,7 @@
             margin-bottom: 10px;
 
             .section__sub.style-2 {
-                color: $color-primary;
+                color: #4d4d4d;
             }
         }
 
@@ -1003,6 +1057,10 @@
         &__link {
             margin-left: 30px;
             margin-top: -4px;
+
+            .btn {
+                font-size: 14px;
+            }
         }
     }
 }
