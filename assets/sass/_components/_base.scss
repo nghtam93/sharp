@@ -3,8 +3,13 @@ $color-primary : #1A1A1A;
 $color-green: #00A99D;
 body{
     color: #1A1A1A;
-    font: 16px/1.8 'YuMincho';
-    //font:16px/1.8 'DNPShueiMGoStd-L';
+    // font: 16px/1.8 'YuMincho';
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8;
+
+            //font:16px/1.8 'DNPShueiMGoStd-L';
     @media (max-width: 575px){
         font-size: 14px;
         line-height: normal;
@@ -89,7 +94,7 @@ img {
     border: none;
     padding: .375rem .75rem;
     font-size: 1rem;
-    font-family: 'YuMinchoDemi';
+    font-weight: bold;
     border-radius: 0;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }

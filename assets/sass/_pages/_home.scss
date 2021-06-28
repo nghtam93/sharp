@@ -1,7 +1,7 @@
 .section {
     &__title {
         font-size: 28px;
-        font-family: 'YuMinchoDemi';
+        font-weight: bold;
         color: #4d4d4d;
         line-height: 35px;
 
@@ -44,7 +44,7 @@
         top: 10px;
         right: 10px;
         padding-left: 33px;
-        font-family: 'YuMinchoDemi';
+        font-weight: bold;
         text-shadow: 0px 0px 10px rgba(0,0,0,0.57);
     }
 
@@ -403,7 +403,7 @@
                 text-orientation: upright;
                 font-size: 24px;
                 color: #fff;
-                font-family: 'YuMinchoDemi';
+                font-weight: bold;
                 letter-spacing: 5px;
                 margin: 0 10px 0 0!important;
                 text-align: left;
@@ -447,7 +447,7 @@
         &__box {
             border: 4px solid rgba(184, 172, 125,0.8);
             padding: 10px 10px;
-            font-family: 'YuMinchoDemi';
+            font-weight: bold;
 
             .text {
                 font-size: 24px;
@@ -478,7 +478,7 @@
             padding: 10px 5px;
 
             .phone {
-                font-family: 'YuMinchoDemi';
+                font-weight: bold;
                 font-size: 18px;
                 color: #00A99D;
                 margin-top: 7px;
@@ -785,7 +785,7 @@
 
         &__title {
             width: calc(100% - 70px);
-            font-family: 'YuMinchoDemi';
+            font-weight: bold;
             font-size: 16px;
             display: flex;
             align-items: center;
@@ -854,7 +854,7 @@
 
             .section__sub {
                 font-size: 16px;
-                font-family: 'YuMinchoDemi';
+                font-weight: bold;
             }
         }
         &__info {
@@ -906,7 +906,7 @@
         }
         &__title {
             font-size: 16px;
-            font-family: 'YuMinchoDemi';
+            font-weight: bold;
             text-align: center;
             color: #fff;
             margin-bottom: 10px;
