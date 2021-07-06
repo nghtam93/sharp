@@ -1,0 +1,224 @@
+.page-header {
+    position: relative;
+    padding-bottom: 100px;
+    &__thumb {
+        padding-left: 30px;
+    }
+    &__content {
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        width: calc(100% - 30px);
+        z-index: 1;
+        background: $white;
+        padding: 30px 0;
+
+        .title {
+            font-family: "Cinzel", serif;
+            font-weight: 500;
+            font-size: 51px;
+            line-height: 60px;
+            color: $brown;
+            padding-left: 30px;
+        }
+        .sub {
+            display: inline-block;
+            background: $yellow-pri;
+            font-size: 18px;
+            color: $white;
+            line-height: 22px;
+            font-weight: bold;
+            padding: 1px 37px 3px;
+        }
+    }
+}
+
+.service-menu {
+    padding: 50px 30px;
+    background: url("../img/services/bg-service.jpg") no-repeat center;
+    background-size: cover;
+
+    .section__sub {
+        text-shadow: none;
+        color: $yellow-pri;
+        margin-bottom: 20px;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: 50fr 50fr;
+        grid-template-rows: auto auto;
+        grid-gap: 8px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 10px;
+        font-weight: 700;
+        color: $white;
+        font-size: 12.5px;
+        background: rgba(184, 172, 125, 0.6);
+
+        img {
+            max-width: 15px;
+        }
+    }
+}
+
+.service__caries {
+    position: relative;
+    margin-top: 50px;
+    padding-left: 30px;
+
+    &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 80%;
+        height: 232px;
+        background: $yellow-pri;
+    }
+
+    .el {
+        &__title {
+            font-size: 23px;
+            font-weight: bold;
+            color: $white;
+            line-height: 30px;
+            z-index: 1;
+            position: relative;
+            padding: 15px 0 5px;
+        }
+        &__thumb {
+            position: relative;
+
+            .label {
+                position: absolute;
+                left: 20px;
+                top: 15px;
+                color: $color-green;
+                font-size: 26px;
+                font-weight: 500;
+                font-family: "Cinzel", serif;
+
+                @media (min-width: 992px) {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        &__list {
+            padding: 15px;
+            background: rgba(184, 172, 125, 0.4);
+            margin-top: -3px;
+
+            li {
+                position: relative;
+                padding-left: 20px;
+                font-size: 19px;
+                font-weight: bold;
+                color: $black;
+
+                &:before {
+                    position: absolute;
+                    left: 0;
+                    top: 11px;
+                    width: 11px;
+                    height: 11px;
+                    content: "";
+                    background: $color-green;
+                }
+            }
+
+            @media (min-width: 992px) {
+                margin-top: -8px;
+            }
+        }
+
+        &__excerpt {
+            font-size: 16px;
+            line-height: 24px;
+            padding: 20px 30px 20px 0;
+        }
+    }
+
+    &__content {
+        background: rgba(184, 172, 125, 0.4);
+        padding: 20px;
+        text-align: center;
+
+        .title {
+            font-size: 19px;
+            font-weight: bold;
+            line-height: 27px;
+            margin-bottom: 10px;
+        }
+
+        .excerpt {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            width: 197px;
+            margin-left: auto;
+        }
+    }
+}
+
+.service-higher {
+    position: relative;
+    padding: 50px 30px;
+    margin-top: 30px;
+    background: url("../img/services/bg-service-2.jpg") no-repeat center;
+    background-size: cover;
+
+    &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255,0.6);
+    }
+
+    .el {
+        &__box {
+            position: relative;
+            z-index: 1;
+        }
+        &__sub {
+            color: $color-green;
+            font-size: 17px;
+            font-family: "Cinzel", serif;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        &__title {
+            text-align: center;
+            font-size: 27px;
+            line-height: 40px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        &__excerpt {
+            margin-bottom: 30px;
+        }
+    }
+
+    .collaborator {
+        &__item {
+            margin-bottom: 8px;
+        }
+    }
+}

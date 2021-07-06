@@ -2,7 +2,7 @@
 $color-primary : #1A1A1A;
 $color-green: #00A99D;
 body{
-    color: #1A1A1A;
+    color: $color-primary;
     // font: 16px/1.8 'YuMincho';
     font-family: "游明朝体", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
     font-weight: normal;
