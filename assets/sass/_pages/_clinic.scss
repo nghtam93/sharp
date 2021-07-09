@@ -1,0 +1,197 @@
+.clinic-clinic {
+    background: url("../img/clinic/bg-clinic.jpg") no-repeat center;
+    background-size: cover;
+    padding: 50px 0 50px;
+    .el {
+        &__header {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 20px;
+            .section__sub {
+                font-size: 45px;
+                color: $yellow-pri;
+                text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+            }
+        }
+
+        &__slider {
+            .el__item {
+                margin-right: 30px;
+            }
+            .slick-arrow {
+                width: 50px;
+                height: 50px;
+                background: url("../img/next.svg") no-repeat center;
+                background-size: cover;
+                top: 50%;
+                transform: translate(0, -50%);
+
+                &:before {
+                    content: none;
+                }
+
+                &.slick-prev {
+                    background-image: url("../img/prev.svg");
+                    left: 0;
+                    z-index: 1;
+                }
+            }
+        }
+
+        &__link {
+            margin-left: 30px;
+            margin-top: -3px;
+
+            a {
+                font-size: 24px;
+                line-height: 38px;
+                font-weight: bold;
+                height: 52px;
+            }
+        }
+
+        &__excerpt {
+            padding: 30px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .slick-dots {
+        li.slick-active button:before {
+            background-color: $color-green;
+        }
+    }
+}
+
+.clinic-content-text {
+    padding: 30px;
+    background: rgba(184, 172, 125, 0.3);
+
+    .el {
+        &__title {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: bold;
+            color: #b8ac7d;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        &__sub {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        &__thumb {
+            margin-bottom: 15px;
+        }
+        &__excerpt {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.clinic-facilities {
+    padding: 50px 0 0;
+    .el {
+        &__header {
+            position: relative;
+            z-index: 1;
+            .section__sub {
+                font-size: 45px;
+                color: $yellow-pri;
+                text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+            }
+        }
+        &__box {
+            position: relative;
+            padding: 50px 0 0;
+            margin-top: -35px;
+
+            &:before {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: calc(100% - 20px);
+                height: 100%;
+                content: "";
+                background: rgba(0, 167, 155, 0.3);
+                z-index: -1;
+            }
+        }
+        &__fac-item {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__thumb {
+            margin-right: 30px;
+        }
+        &__content {
+            margin-left: 40px;
+            position: relative;
+            top: -26px;
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 38px;
+            font-weight: bold;
+            padding: 7px 5px 7px 10px;
+            color: $white;
+            background: $color-green;
+        }
+    }
+}
+
+.clinic-emergency {
+    padding: 50px 0 5px;
+    background: rgba(184, 172, 125, 0.3);
+
+    .el {
+        &__header {
+            text-align: center;
+            margin-bottom: 30px;
+            .sub {
+                font-size: 17px;
+                font-weight: 500;
+                font-family: "Cinzel", serif;
+                color: $yellow-pri;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+
+            }
+            .title {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+
+        &__item {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+
+            .el__thumb {
+                width: 40%;
+            }
+            .el__content {
+                width: 60%;
+                padding: 0 20px;
+            }
+        }
+
+        &__title {
+            font-size: 20px;
+            font-weight: bold;
+            background: $white;
+            color: $yellow-pri;
+            padding: 5px 8px;
+            margin-bottom: 10px;
+        }
+    }
+}
