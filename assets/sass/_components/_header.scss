@@ -22,8 +22,13 @@
 
     .btn-menu {
         margin-bottom: -9px;
+        cursor: pointer;
         img {
             max-width: 50px;
+        }
+
+        @media (max-width: 570px) {
+            margin-bottom: -5px;
         }
     }
 }

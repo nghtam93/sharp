@@ -1,0 +1,168 @@
+.access-map {
+    padding: 60px 30px 30px;
+    background: url("../img/access/bg-access.jpg") no-repeat center;
+    background-size: cover;
+
+    .el {
+        &__header {
+            .section__sub {
+                font-size: 45px;
+                color: $yellow-pri;
+            }
+
+            margin-bottom: 15px;
+        }
+        &__thumb {
+            margin-bottom: 20px;
+        }
+        &__feature {
+            img {
+                margin-top: -5px;
+            }
+        }
+        &__link {
+            margin-bottom: 30px;
+
+            .btn {
+                width: 197px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+.access-transport {
+    padding: 50px 0 0;
+    .el {
+        &__header {
+            position: relative;
+            z-index: 1;
+            .section__sub {
+                font-size: 45px;
+                color: $yellow-pri;
+                text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+            }
+        }
+        &__box {
+            position: relative;
+            padding: 50px 30px 0;
+            margin-top: -35px;
+            overflow: hidden;
+
+            &:before {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: calc(100% - 30px);
+                height: 100%;
+                content: "";
+                background: rgba(184, 172, 125, 0.3);
+                z-index: -1;
+            }
+        }
+        &__item {
+            padding-right: 15px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            position: relative;
+
+            &:after {
+                position: absolute;
+                left: -30px;
+                bottom: 0;
+                width: 150%;
+                height: 1.5px;
+                content: "";
+                background: $white;
+            }
+
+            &:last-child {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+        &__thumb {
+            text-align: center;
+
+            img {
+                max-width: 32px;
+                margin: 0 auto;
+            }
+        }
+        &__title {
+            color: $color-green;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        &__excerpt {
+            font-size: 16px;
+            line-height: 24px;
+
+            @media (min-width: 992px) {
+                text-align: center;
+            }
+        }
+    }
+}
+.access-route {
+    padding: 50px 0 0;
+    .el {
+        &__header {
+            position: relative;
+            z-index: 1;
+            .section__sub {
+                font-size: 45px;
+                color: $yellow-pri;
+                text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+            }
+        }
+        &__box {
+            position: relative;
+            padding: 50px 0 30px;
+            margin-top: -35px;
+            overflow: hidden;
+
+            &:before {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: calc(100% - 30px);
+                height: 100%;
+                content: "";
+                background: rgba(0, 169, 157, 0.3);
+                z-index: -1;
+            }
+        }
+        &__item {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &__thumb {
+            position: relative;
+            width: 50%;
+
+            .arrow {
+                position: absolute;
+                left: 50%;
+                bottom: -22px;
+                transform: translateX(-50%);
+                width: 44px;
+                height: 44px;
+                z-index: 1;
+            }
+        }
+        &__content {
+            width: 50%;
+            padding-right: 30px;
+            padding-left: 10px;
+            display: flex;
+            align-items: flex-end;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

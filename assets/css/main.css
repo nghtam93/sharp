@@ -1636,9 +1636,13 @@ img {
       max-width: 30px;
       margin-right: 6px; }
   .header .btn-menu {
-    margin-bottom: -9px; }
+    margin-bottom: -9px;
+    cursor: pointer; }
     .header .btn-menu img {
       max-width: 50px; }
+    @media (max-width: 570px) {
+      .header .btn-menu {
+        margin-bottom: -5px; } }
 
 .nav-mobile {
   position: absolute;
@@ -2442,7 +2446,9 @@ body.show-menu {
       background: url("../img/next.svg") no-repeat center;
       background-size: cover;
       top: 65%;
-      transform: translate(0, -65%); }
+      transform: translate(0, -65%);
+      z-index: 2;
+      opacity: 1; }
       .home-facilities .el__slider .slick-arrow:before {
         content: none; }
       .home-facilities .el__slider .slick-arrow.slick-prev {
@@ -2526,6 +2532,128 @@ body.show-menu {
       font-weight: bold;
       padding: 1px 37px 3px; }
 
+.access-map {
+  padding: 60px 30px 30px;
+  background: url("../img/access/bg-access.jpg") no-repeat center;
+  background-size: cover; }
+  .access-map .el__header {
+    margin-bottom: 15px; }
+    .access-map .el__header .section__sub {
+      font-size: 45px;
+      color: #b8ac7d; }
+  .access-map .el__thumb {
+    margin-bottom: 20px; }
+  .access-map .el__feature img {
+    margin-top: -5px; }
+  .access-map .el__link {
+    margin-bottom: 30px; }
+    .access-map .el__link .btn {
+      width: 197px;
+      margin: 0 auto; }
+
+.access-transport {
+  padding: 50px 0 0; }
+  .access-transport .el__header {
+    position: relative;
+    z-index: 1; }
+    .access-transport .el__header .section__sub {
+      font-size: 45px;
+      color: #b8ac7d;
+      text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
+  .access-transport .el__box {
+    position: relative;
+    padding: 50px 30px 0;
+    margin-top: -35px;
+    overflow: hidden; }
+    .access-transport .el__box:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: calc(100% - 30px);
+      height: 100%;
+      content: "";
+      background: rgba(184, 172, 125, 0.3);
+      z-index: -1; }
+  .access-transport .el__item {
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative; }
+    .access-transport .el__item:after {
+      position: absolute;
+      left: -30px;
+      bottom: 0;
+      width: 150%;
+      height: 1.5px;
+      content: "";
+      background: #fff; }
+    .access-transport .el__item:last-child:after {
+      content: none; }
+  .access-transport .el__thumb {
+    text-align: center; }
+    .access-transport .el__thumb img {
+      max-width: 32px;
+      margin: 0 auto; }
+  .access-transport .el__title {
+    color: #00A99D;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; }
+  .access-transport .el__excerpt {
+    font-size: 16px;
+    line-height: 24px; }
+    @media (min-width: 992px) {
+      .access-transport .el__excerpt {
+        text-align: center; } }
+
+.access-route {
+  padding: 50px 0 0; }
+  .access-route .el__header {
+    position: relative;
+    z-index: 1; }
+    .access-route .el__header .section__sub {
+      font-size: 45px;
+      color: #b8ac7d;
+      text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
+  .access-route .el__box {
+    position: relative;
+    padding: 50px 0 30px;
+    margin-top: -35px;
+    overflow: hidden; }
+    .access-route .el__box:before {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: calc(100% - 30px);
+      height: 100%;
+      content: "";
+      background: rgba(0, 169, 157, 0.3);
+      z-index: -1; }
+  .access-route .el__item {
+    display: flex;
+    flex-wrap: wrap; }
+  .access-route .el__thumb {
+    position: relative;
+    width: 50%; }
+    .access-route .el__thumb .arrow {
+      position: absolute;
+      left: 50%;
+      bottom: -22px;
+      transform: translateX(-50%);
+      width: 44px;
+      height: 44px;
+      z-index: 1; }
+  .access-route .el__content {
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 10px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 16px;
+    line-height: 24px; }
+
 .clinic-clinic {
   background: url("../img/clinic/bg-clinic.jpg") no-repeat center;
   background-size: cover;
@@ -2546,7 +2674,9 @@ body.show-menu {
     background: url("../img/next.svg") no-repeat center;
     background-size: cover;
     top: 50%;
-    transform: translate(0, -50%); }
+    transform: translate(0, -50%);
+    z-index: 2;
+    opacity: 1; }
     .clinic-clinic .el__slider .slick-arrow:before {
       content: none; }
     .clinic-clinic .el__slider .slick-arrow.slick-prev {
