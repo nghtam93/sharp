@@ -1635,6 +1635,9 @@ img {
     .header-logo img {
       max-width: 30px;
       margin-right: 6px; }
+    @media (min-width: 992px) {
+      .header-logo {
+        padding-left: 0; } }
   .header .btn-menu {
     margin-bottom: -9px;
     cursor: pointer; }
@@ -1776,6 +1779,9 @@ body.show-menu {
       letter-spacing: 3px; }
   .home-banner img {
     width: 100%; }
+  @media (min-width: 992px) {
+    .home-banner {
+      padding-left: 0; } }
 
 .main__nav {
   font-size: 18px;
@@ -2508,6 +2514,9 @@ body.show-menu {
   padding-bottom: 100px; }
   .page-header__thumb {
     padding-left: 30px; }
+    @media (min-width: 992px) {
+      .page-header__thumb {
+        padding-left: 0; } }
   .page-header__content {
     position: absolute;
     left: 0;

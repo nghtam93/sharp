@@ -18,6 +18,10 @@
             max-width: 30px;
             margin-right: 6px;
         }
+
+        @media (min-width: 992px) {
+            padding-left: 0;
+        }
     }
 
     .btn-menu {
