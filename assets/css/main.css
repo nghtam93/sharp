@@ -2366,9 +2366,14 @@ body.show-menu {
     margin-bottom: 30px; }
 
 .home-clinic {
-  padding: 50px 30px 30px; }
+  padding: 0 30px 30px;
+  margin: 66px 0 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url("../img/bg-clinic.png");
+  background-size: cover; }
   .home-clinic .el__header {
-    text-align: center; }
+    text-align: center;
+    position: relative;
+    top: -16px; }
     .home-clinic .el__header .section__title {
       font-size: 36px;
       font-family: "Cinzel", serif;
