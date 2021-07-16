@@ -1645,7 +1645,7 @@ img {
       max-width: 50px; }
     @media (max-width: 570px) {
       .header .btn-menu {
-        margin-bottom: -5px; } }
+        margin-bottom: -7px; } }
 
 .nav-mobile {
   position: absolute;
@@ -2390,7 +2390,7 @@ body.show-menu {
       .home-clinic .el__info td a {
         color: #1A1A1A !important; }
   .home-clinic .el__content {
-    background: #00A79B;
+    background: rgba(0, 167, 155, 0.8);
     padding: 20px; }
   .home-clinic .el__item {
     position: relative;
