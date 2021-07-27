@@ -1326,6 +1326,9 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.8; }
+  @media (min-width: 991px) {
+    body {
+      background: #b5eeea; } }
   @media (max-width: 575px) {
     body {
       font-size: 14px;
@@ -1532,7 +1535,8 @@ img {
   max-width: 960px;
   margin: 0 auto;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  background: #fff; }
 
 /*Fix image trong khung*/
 .dnfix__thumb {
@@ -1619,7 +1623,8 @@ img {
   src: url("../fonts/cambria.ttf"); }
 .header {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: #fff; }
   .header__wrap {
     display: flex;
     justify-content: space-between;
@@ -1952,9 +1957,6 @@ body.show-menu {
     .table-schedule th, .table-schedule td {
       padding: 4px 1px;
       letter-spacing: 0; } }
-  @media (max-width: 991px) and (min-width: 480px) {
-    .table-schedule thead th:first-child {
-      font-size: 16px; } }
   @media (max-width: 991px) {
     .table-schedule th, .table-schedule td {
       min-width: 60px; } }

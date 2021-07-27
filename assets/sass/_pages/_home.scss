@@ -263,11 +263,11 @@
         }
     }
     @media ( max-width: 991px ) and ( min-width: 480px ) {
-        thead {
-            th:first-child {
-                font-size: 16px;
-            }
-        }
+        //thead {
+        //    th:first-child {
+        //        font-size: 16px;
+        //    }
+        //}
     }
     @media ( max-width: 991px ) {
         th, td {
@@ -287,7 +287,6 @@
         }
     }
     @media  (max-width: 600px ){
-
         .schedule {
             font-size: 16px;
         }
