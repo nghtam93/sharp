@@ -8,6 +8,10 @@
             .section__sub {
                 font-size: 45px;
                 color: $yellow-pri;
+
+                @media (min-width: 780px) {
+                    font-size: 55px;
+                }
             }
 
             margin-bottom: 30px;
@@ -30,6 +34,11 @@
                 font-family: "Cinzel", serif;
                 line-height: 30px;
                 color: $color-green;
+                @media (min-width: 780px) {
+                    font-size: 37px;
+                    line-height: 40px;
+                }
+
             }
         }
         &__text {
@@ -44,6 +53,10 @@
                 font-weight: bold;
                 letter-spacing: 5px;
                 margin: 0;
+
+                @media (min-width: 780px) {
+                    font-size: 30px;
+                }
             }
         }
         &__content {
@@ -53,12 +66,21 @@
                 text-align: right;
                 font-size: 21px;
                 font-weight: bold;
+
+                @media (min-width: 780px) {
+                    font-size: 30px;
+                }
             }
         }
         &__excerpt {
             font-size: 16px;
             line-height: 24px;
             margin-bottom: 20px;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
     }
 }
@@ -78,11 +100,21 @@
             border-bottom: 2px solid rgba(184, 172, 125, 0.7);
             margin-bottom: 12px;
             padding-bottom: 5px;
+
+            @media (min-width: 780px) {
+                font-size: 22px;
+                line-height: 26px;
+            }
         }
 
         p {
             font-size: 16px;
             line-height: 24px;
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
+
         }
 
         &-item:first-child {
@@ -103,6 +135,10 @@
                 font-size: 16px;
                 font-weight: bold;
                 margin-bottom: 5px;
+
+                @media (min-width: 780px) {
+                    font-size: 18px;
+                }
             }
 
             .title {
@@ -110,10 +146,20 @@
                 font-weight: bold;
                 line-height: 30px;
                 margin-bottom: 15px;
+
+                @media (min-width: 780px) {
+                    font-size: 28px;
+                    line-height: 35px;
+                }
             }
             p {
                 font-size: 16px;
                 line-height: 24px;
+
+                @media (min-width: 780px) {
+                    font-size: 18px;
+                    line-height: 26px;
+                }
             }
         }
         .avatar {
@@ -161,6 +207,11 @@
             line-height: 24px;
             padding: 30px 20px;
             background: rgba(0, 169, 157, 0.6);
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
     }
 }
@@ -176,6 +227,10 @@
                 font-size: 45px;
                 color: $yellow-pri;
                 text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+
+                @media (min-width: 780px) {
+                    font-size: 55px;
+                }
             }
         }
 

@@ -1326,6 +1326,9 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.8; }
+  @media (min-width: 780px) {
+    body {
+      font-size: 18px; } }
   @media (min-width: 991px) {
     body {
       background: #b5eeea; } }
@@ -1406,6 +1409,9 @@ img {
   font-weight: bold;
   border-radius: 0;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+  @media (min-width: 780px) {
+    .btn {
+      font-size: 18px; } }
 
 .btn-primary {
   height: 40px;
@@ -1640,6 +1646,9 @@ img {
     .header-logo img {
       max-width: 30px;
       margin-right: 6px; }
+    @media (min-width: 780px) {
+      .header-logo {
+        font-size: 26px; } }
     @media (min-width: 992px) {
       .header-logo {
         padding-left: 0; } }
@@ -1675,6 +1684,12 @@ img {
       .nav-mobile__list li a p:last-child {
         font-size: 14px;
         text-align: right; }
+        @media (min-width: 780px) {
+          .nav-mobile__list li a p:last-child {
+            font-size: 16px; } }
+      @media (min-width: 780px) {
+        .nav-mobile__list li a p {
+          font-size: 16px; } }
   .nav-mobile__list li:last-child a {
     border-bottom: 1px solid #fff; }
   .nav-mobile__social {
@@ -1682,6 +1697,9 @@ img {
     padding-top: 55%;
     justify-content: center;
     align-items: center; }
+    @media (min-width: 780px) {
+      .nav-mobile__social {
+        padding-top: 40%; } }
     .nav-mobile__social li {
       margin-right: 25px; }
       .nav-mobile__social li:last-child {
@@ -1704,6 +1722,10 @@ body.show-menu {
   line-height: 40px;
   max-width: 960px;
   margin: 0 auto; }
+  @media (min-width: 780px) {
+    .footer {
+      font-size: 18px;
+      line-height: 44px; } }
   .footer__menu {
     display: grid;
     grid-template-columns: 50fr 50fr;
@@ -1731,6 +1753,9 @@ body.show-menu {
     color: #1A1A1A;
     max-width: 960px;
     margin: 0 auto; }
+    @media (min-width: 780px) {
+      .footer__copyright {
+        font-size: 16px; } }
 
 /*back to top*/
 .back__to--top {
@@ -1770,6 +1795,9 @@ body.show-menu {
     padding-left: 33px;
     font-weight: bold;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57); }
+    @media (min-width: 780px) {
+      .home-banner .title-banner {
+        font-size: 20px; } }
   .home-banner .banner-text {
     position: absolute;
     left: 0;
@@ -1783,6 +1811,9 @@ body.show-menu {
       writing-mode: vertical-rl;
       text-orientation: upright;
       letter-spacing: 3px; }
+      @media (min-width: 780px) {
+        .home-banner .banner-text p {
+          font-size: 34px; } }
   .home-banner img {
     width: 100%; }
   @media (min-width: 992px) {
@@ -1886,6 +1917,9 @@ body.show-menu {
     font-size: 14px;
     text-align: right;
     padding-right: 50px; }
+    @media (min-width: 780px) {
+      .home-intro__text {
+        font-size: 20px; } }
     @media (max-width: 600px) {
       .home-intro__text {
         padding-right: 23px; } }
@@ -1936,6 +1970,9 @@ body.show-menu {
   border-collapse: collapse;
   font-size: 16px;
   margin-bottom: 10px; }
+  @media (min-width: 780px) {
+    .table-schedule {
+      font-size: 22px; } }
   .table-schedule th, .table-schedule td {
     text-align: left;
     vertical-align: middle;
@@ -2009,6 +2046,9 @@ body.show-menu {
     padding: 15px 0;
     font-size: 16px;
     line-height: 1.8; }
+    @media (min-width: 780px) {
+      .home-info .el__item {
+        font-size: 18px; } }
     .home-info .el__item:first-child {
       border-top: 2px solid rgba(26, 26, 26, 0.6); }
     .home-info .el__item__title {
@@ -2046,6 +2086,10 @@ body.show-menu {
       line-height: normal; }
       .home-concept .el__content p.last-child {
         margin: -12px 0 0 0 !important; }
+      @media (min-width: 780px) {
+        .home-concept .el__content p {
+          font-size: 25px;
+          min-height: 172%; } }
       @media (max-width: 376px) {
         .home-concept .el__content p {
           min-height: 125%; } }
@@ -2062,11 +2106,18 @@ body.show-menu {
     color: #4d4d4d;
     margin-bottom: 0;
     font-family: 'DNPShueiMinPr6-M', sans-serif; }
+    @media (min-width: 780px) {
+      .home-information .el__title {
+        font-size: 38px; } }
   .home-information .el__excerpt {
     font-size: 16px;
     color: #1A1A1A;
     margin-bottom: 5px;
     line-height: 25px; }
+    @media (min-width: 780px) {
+      .home-information .el__excerpt {
+        font-size: 26px;
+        line-height: 35px; } }
   .home-information .el__box {
     border: 4px solid rgba(184, 172, 125, 0.8);
     padding: 10px 10px;
@@ -2076,6 +2127,9 @@ body.show-menu {
       color: rgba(184, 172, 125, 0.8);
       line-height: 32px;
       letter-spacing: 2px; }
+      @media (min-width: 780px) {
+        .home-information .el__box .text {
+          font-size: 30px; } }
     .home-information .el__box .label {
       margin-bottom: 5px; }
       .home-information .el__box .label span {
@@ -2085,6 +2139,12 @@ body.show-menu {
         line-height: 24px;
         display: inline-block;
         min-width: 103px; }
+        @media (min-width: 780px) {
+          .home-information .el__box .label span {
+            font-size: 28px;
+            line-height: 34px;
+            min-width: 150px;
+            margin-bottom: 10px; } }
       .home-information .el__box .label.green span {
         background: #00A99D; }
   .home-information .el__bg {
@@ -2095,6 +2155,9 @@ body.show-menu {
       font-size: 18px;
       color: #00A99D;
       margin-top: 7px; }
+      @media (min-width: 780px) {
+        .home-information .el__bg .phone {
+          font-size: 24px; } }
     .home-information .el__bg .green span {
       background: #00A99D;
       color: #fff;
@@ -2103,6 +2166,9 @@ body.show-menu {
       font-weight: bold;
       margin-bottom: 8px;
       display: inline-block; }
+      @media (min-width: 780px) {
+        .home-information .el__bg .green span {
+          font-size: 24px; } }
   .home-information .home-intro {
     margin-left: 0;
     margin-top: 10px; }
@@ -2126,6 +2192,10 @@ body.show-menu {
     line-height: 28px;
     margin-bottom: 20px;
     color: #fff; }
+    @media (min-width: 780px) {
+      .home-contact__title {
+        font-size: 28px;
+        line-height: 38px; } }
   .home-contact__box {
     background: #fff;
     padding: 10px;
@@ -2149,12 +2219,21 @@ body.show-menu {
     .home-contact__box p {
       font-size: 14px;
       margin: 0 -10px; }
+      @media (min-width: 780px) {
+        .home-contact__box p {
+          font-size: 24px; } }
   .home-contact__link .btn {
     font-size: 24px;
     font-family: 'cambria'; }
+    @media (min-width: 780px) {
+      .home-contact__link .btn {
+        font-size: 26px; } }
   .home-contact-text {
     font-size: 16px;
     margin-bottom: 10px; }
+    @media (min-width: 780px) {
+      .home-contact-text {
+        font-size: 26px; } }
   .home-contact__wrap {
     padding: 30px 0 100px; }
 
@@ -2205,10 +2284,17 @@ body.show-menu {
       background: #fff;
       padding: 0 15px;
       margin-bottom: 3px; }
+    @media (min-width: 780px) {
+      .home-greeting .el__title {
+        font-size: 34px; } }
   .home-greeting .el__excerpt {
     font-size: 16px;
     line-height: 26px;
     color: #1A1A1A; }
+    @media (min-width: 780px) {
+      .home-greeting .el__excerpt {
+        font-size: 24px;
+        line-height: 32px; } }
   .home-greeting .el__user {
     position: relative;
     margin-right: 30px;
@@ -2220,6 +2306,9 @@ body.show-menu {
     .home-greeting .el__user__content {
       padding: 0 5px 10px 30px;
       font-size: 16px; }
+      @media (min-width: 780px) {
+        .home-greeting .el__user__content {
+          font-size: 18px; } }
     .home-greeting .el__user__position {
       display: inline-block;
       font-weight: bold;
@@ -2258,6 +2347,10 @@ body.show-menu {
   text-transform: uppercase;
   font-family: "Cinzel", serif;
   font-weight: 500; }
+  @media (min-width: 780px) {
+    .home-featured .el__position {
+      font-size: 34px;
+      line-height: 40px; } }
 .home-featured .el__content {
   position: absolute;
   left: 0;
@@ -2270,6 +2363,10 @@ body.show-menu {
   color: #1A1A1A;
   margin-bottom: 15px;
   font-weight: bold; }
+  @media (min-width: 780px) {
+    .home-featured .el__title {
+      font-size: 36px;
+      line-height: 50px; } }
   .home-featured .el__title span {
     display: inline-block;
     background: #fff;
@@ -2282,6 +2379,10 @@ body.show-menu {
   background: rgba(255, 255, 255, 0.3);
   margin-right: 30px;
   padding: 20px 25px; }
+  @media (min-width: 780px) {
+    .home-featured .el__excerpt {
+      font-size: 18px;
+      line-height: 28px; } }
 .home-featured .el__readmore {
   width: 50px;
   height: 50px;
@@ -2333,6 +2434,9 @@ body.show-menu {
     padding-left: 5px;
     justify-content: center;
     text-align: center; }
+    @media (min-width: 780px) {
+      .home-service .el__title {
+        font-size: 26px; } }
 
 .home-sns {
   margin: 0 30px 25px;
@@ -2348,6 +2452,9 @@ body.show-menu {
     font-size: 36px;
     color: #fff;
     background: #B8AC7D; }
+    @media (min-width: 780px) {
+      .home-sns .el__title {
+        font-size: 46px; } }
   .home-sns .el__content {
     display: flex;
     justify-content: center;
@@ -2367,6 +2474,9 @@ body.show-menu {
     color: #fff;
     font-family: 'cambria';
     margin-bottom: 30px; }
+    @media (min-width: 780px) {
+      .home-sns .el__text {
+        font-size: 30px; } }
 
 .home-clinic {
   padding: 0 30px 30px;
@@ -2381,9 +2491,15 @@ body.show-menu {
       font-size: 36px;
       font-family: "Cinzel", serif;
       font-weight: 500; }
+      @media (min-width: 780px) {
+        .home-clinic .el__header .section__title {
+          font-size: 46px; } }
     .home-clinic .el__header .section__sub {
       font-size: 16px;
       font-weight: bold; }
+      @media (min-width: 780px) {
+        .home-clinic .el__header .section__sub {
+          font-size: 24px; } }
   .home-clinic .el__info {
     padding: 25px 0 30px; }
     .home-clinic .el__info th {
@@ -2392,11 +2508,17 @@ body.show-menu {
       font-size: 16px;
       color: #1A1A1A;
       font-weight: 400; }
+      @media (min-width: 780px) {
+        .home-clinic .el__info th {
+          font-size: 18px; } }
     .home-clinic .el__info td {
       font-size: 16px;
       color: #1A1A1A !important; }
       .home-clinic .el__info td a {
         color: #1A1A1A !important; }
+      @media (min-width: 780px) {
+        .home-clinic .el__info td {
+          font-size: 18px; } }
   .home-clinic .el__content {
     background: rgba(0, 167, 155, 0.8);
     padding: 20px; }
@@ -2424,9 +2546,15 @@ body.show-menu {
     text-align: center;
     color: #fff;
     margin-bottom: 10px; }
+    @media (min-width: 780px) {
+      .home-clinic .el__title {
+        font-size: 26px; } }
   .home-clinic .el__excerpt {
     font-size: 16px;
     color: #000 !important; }
+    @media (min-width: 780px) {
+      .home-clinic .el__excerpt {
+        font-size: 17px; } }
     .home-clinic .el__excerpt a {
       color: #1A1A1A !important; }
 
@@ -2452,6 +2580,9 @@ body.show-menu {
     font-size: 16px;
     text-align: left;
     color: #1A1A1A; }
+    @media (min-width: 780px) {
+      .home-facilities .el__excerpt {
+        font-size: 18px; } }
   .home-facilities .el__slider {
     margin-left: 30px; }
     .home-facilities .el__slider .slick-arrow {
@@ -2486,17 +2617,28 @@ body.show-menu {
     line-height: 40px;
     padding: 0 10px;
     background: #fff; }
+    @media (min-width: 780px) {
+      .home-facilities .el__position {
+        font-size: 34px;
+        line-height: 50px; } }
   .home-facilities .el__link {
     margin-left: 30px;
     margin-top: -4px; }
     .home-facilities .el__link .btn {
       font-size: 14px; }
+      @media (min-width: 780px) {
+        .home-facilities .el__link .btn {
+          font-size: 16px; } }
 
 .section__title {
   font-size: 28px;
   font-weight: bold;
   color: #4d4d4d;
   line-height: 35px; }
+  @media (min-width: 780px) {
+    .section__title {
+      font-size: 38px;
+      line-height: 42px; } }
   .section__title.style-2 {
     font-size: 18px;
     color: #fff;
@@ -2506,16 +2648,26 @@ body.show-menu {
       background: #00A79B;
       padding: 0 17px;
       font-weight: bold; }
+    @media (min-width: 780px) {
+      .section__title.style-2 {
+        font-size: 28px;
+        line-height: 35px; } }
 .section__sub {
   font-family: "Cinzel", serif;
   font-weight: 500;
   font-size: 21px;
   color: #00a99d; }
+  @media (min-width: 780px) {
+    .section__sub {
+      font-size: 31px; } }
   .section__sub.style-2 {
     font-size: 54px;
     line-height: 65px;
     color: #fff;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57); }
+    @media (min-width: 780px) {
+      .section__sub.style-2 {
+        font-size: 60px; } }
 
 .page-header {
   position: relative;
@@ -2540,6 +2692,9 @@ body.show-menu {
       line-height: 60px;
       color: #4d4d4d;
       padding-left: 30px; }
+      @media (min-width: 780px) {
+        .page-header__content .title {
+          font-size: 61px; } }
     .page-header__content .sub {
       display: inline-block;
       background: #b8ac7d;
@@ -2548,6 +2703,10 @@ body.show-menu {
       line-height: 22px;
       font-weight: bold;
       padding: 1px 37px 3px; }
+      @media (min-width: 780px) {
+        .page-header__content .sub {
+          font-size: 26px;
+          line-height: 30px; } }
 
 .access-map {
   padding: 60px 30px 30px;
@@ -2558,6 +2717,9 @@ body.show-menu {
     .access-map .el__header .section__sub {
       font-size: 45px;
       color: #b8ac7d; }
+      @media (min-width: 780px) {
+        .access-map .el__header .section__sub {
+          font-size: 55px; } }
   .access-map .el__thumb {
     margin-bottom: 20px; }
   .access-map .el__feature img {
@@ -2577,6 +2739,9 @@ body.show-menu {
       font-size: 45px;
       color: #b8ac7d;
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
+      @media (min-width: 780px) {
+        .access-transport .el__header .section__sub {
+          font-size: 55px; } }
   .access-transport .el__box {
     position: relative;
     padding: 50px 30px 0;
@@ -2618,9 +2783,16 @@ body.show-menu {
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center; }
+    @media (min-width: 780px) {
+      .access-transport .el__title {
+        font-size: 30px; } }
   .access-transport .el__excerpt {
     font-size: 16px;
     line-height: 24px; }
+    @media (min-width: 780px) {
+      .access-transport .el__excerpt {
+        font-size: 18px;
+        line-height: 26px; } }
     @media (min-width: 992px) {
       .access-transport .el__excerpt {
         text-align: center; } }
@@ -2634,6 +2806,9 @@ body.show-menu {
       font-size: 45px;
       color: #b8ac7d;
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); }
+      @media (min-width: 780px) {
+        .access-route .el__header .section__sub {
+          font-size: 55px; } }
   .access-route .el__box {
     position: relative;
     padding: 50px 0 30px;
@@ -2670,6 +2845,10 @@ body.show-menu {
     align-items: flex-end;
     font-size: 16px;
     line-height: 24px; }
+    @media (min-width: 780px) {
+      .access-route .el__content {
+        font-size: 18px;
+        line-height: 26px; } }
 
 .clinic-clinic {
   background: url("../img/clinic/bg-clinic.jpg") no-repeat center;
@@ -2683,6 +2862,9 @@ body.show-menu {
       font-size: 45px;
       color: #b8ac7d;
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
+      @media (min-width: 780px) {
+        .clinic-clinic .el__header .section__sub {
+          font-size: 55px; } }
   .clinic-clinic .el__slider .el__item {
     margin-right: 30px; }
   .clinic-clinic .el__slider .slick-arrow {
@@ -2713,6 +2895,10 @@ body.show-menu {
     font-size: 16px;
     line-height: 24px;
     text-align: justify; }
+    @media (min-width: 780px) {
+      .clinic-clinic .el__excerpt {
+        font-size: 18px;
+        line-height: 26px; } }
   .clinic-clinic .slick-dots li.slick-active button:before {
     background-color: #00A99D; }
 
@@ -2726,11 +2912,19 @@ body.show-menu {
     color: #b8ac7d;
     margin-bottom: 5px;
     text-align: center; }
+    @media (min-width: 780px) {
+      .clinic-content-text .el__title {
+        font-size: 34px;
+        line-height: 40px; } }
   .clinic-content-text .el__sub {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
     text-align: center; }
+    @media (min-width: 780px) {
+      .clinic-content-text .el__sub {
+        font-size: 18px;
+        line-height: 26px; } }
   .clinic-content-text .el__thumb {
     margin-bottom: 15px; }
   .clinic-content-text .el__excerpt {
@@ -2738,6 +2932,10 @@ body.show-menu {
     line-height: 24px;
     margin-bottom: 30px;
     text-align: justify; }
+    @media (min-width: 780px) {
+      .clinic-content-text .el__excerpt {
+        font-size: 18px;
+        line-height: 26px; } }
 
 .clinic-facilities {
   padding: 50px 0 0; }
@@ -2748,6 +2946,9 @@ body.show-menu {
       font-size: 45px;
       color: #b8ac7d;
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
+      @media (min-width: 780px) {
+        .clinic-facilities .el__header .section__sub {
+          font-size: 60px; } }
   .clinic-facilities .el__box {
     position: relative;
     padding: 50px 0 0;
@@ -2778,12 +2979,20 @@ body.show-menu {
     padding: 7px 5px 7px 10px;
     color: #fff;
     background: #00A99D; }
+    @media (min-width: 780px) {
+      .clinic-facilities .el__title {
+        font-size: 30px;
+        line-height: 44px; } }
   .clinic-facilities .el__excerpt {
     font-size: 16px;
     line-height: 24px;
     background: #fff;
     padding: 20px 30px;
     text-align: justify; }
+    @media (min-width: 780px) {
+      .clinic-facilities .el__excerpt {
+        font-size: 18px;
+        line-height: 26px; } }
 
 .clinic-emergency {
   padding: 50px 0 5px;
@@ -2798,9 +3007,15 @@ body.show-menu {
       color: #b8ac7d;
       text-transform: uppercase;
       margin-bottom: 5px; }
+      @media (min-width: 780px) {
+        .clinic-emergency .el__header .sub {
+          font-size: 20px; } }
     .clinic-emergency .el__header .title {
       font-size: 24px;
       font-weight: bold; }
+      @media (min-width: 780px) {
+        .clinic-emergency .el__header .title {
+          font-size: 34px; } }
   .clinic-emergency .el__item {
     display: flex;
     flex-wrap: wrap;
@@ -2817,10 +3032,17 @@ body.show-menu {
     color: #b8ac7d;
     padding: 5px 8px;
     margin-bottom: 10px; }
+    @media (min-width: 780px) {
+      .clinic-emergency .el__title {
+        font-size: 30px; } }
   .clinic-emergency .el__excerpt {
     font-size: 16px;
     line-height: 24px;
     text-align: justify; }
+    @media (min-width: 780px) {
+      .clinic-emergency .el__excerpt {
+        font-size: 18px;
+        line-height: 26px; } }
 
 .service-menu {
   padding: 50px 30px;
@@ -2844,6 +3066,9 @@ body.show-menu {
     color: #fff;
     font-size: 12.5px;
     background: rgba(184, 172, 125, 0.6); }
+    @media (min-width: 780px) {
+      .service-menu__item {
+        font-size: 16px; } }
     .service-menu__item img {
       max-width: 15px; }
 
@@ -2867,6 +3092,10 @@ body.show-menu {
     z-index: 1;
     position: relative;
     padding: 15px 0 5px; }
+    @media (min-width: 780px) {
+      .service__caries .el__title {
+        font-size: 33px;
+        line-height: 35px; } }
   .service__caries .el__thumb {
     position: relative; }
     .service__caries .el__thumb .label {
@@ -2877,6 +3106,9 @@ body.show-menu {
       font-size: 26px;
       font-weight: 500;
       font-family: "Cinzel", serif; }
+      @media (min-width: 780px) {
+        .service__caries .el__thumb .label {
+          font-size: 36px; } }
       @media (min-width: 992px) {
         .service__caries .el__thumb .label br {
           display: none; } }
@@ -2890,6 +3122,9 @@ body.show-menu {
       font-size: 19px;
       font-weight: bold;
       color: #000; }
+      @media (min-width: 780px) {
+        .service__caries .el__list li {
+          font-size: 25px; } }
       .service__caries .el__list li:before {
         position: absolute;
         left: 0;
@@ -2898,6 +3133,9 @@ body.show-menu {
         height: 11px;
         content: "";
         background: #00A99D; }
+        @media (min-width: 780px) {
+          .service__caries .el__list li:before {
+            top: 19px; } }
     @media (min-width: 992px) {
       .service__caries .el__list {
         margin-top: -8px; } }
@@ -2906,6 +3144,10 @@ body.show-menu {
     line-height: 24px;
     padding: 20px 30px 20px 0;
     text-align: justify; }
+    @media (min-width: 780px) {
+      .service__caries .el__excerpt {
+        font-size: 18px;
+        line-height: 26px; } }
   .service__caries__content {
     background: rgba(184, 172, 125, 0.4);
     padding: 20px;
@@ -2915,11 +3157,19 @@ body.show-menu {
       font-weight: bold;
       line-height: 27px;
       margin-bottom: 10px; }
+      @media (min-width: 780px) {
+        .service__caries__content .title {
+          font-size: 25px;
+          line-height: 30px; } }
     .service__caries__content .excerpt {
       font-size: 16px;
       line-height: 24px;
       text-align: justify;
       margin-bottom: 10px; }
+      @media (min-width: 780px) {
+        .service__caries__content .excerpt {
+          font-size: 18px;
+          line-height: 26px; } }
     .service__caries__content .btn {
       width: 197px;
       margin-left: auto; }
@@ -2967,6 +3217,9 @@ body.show-menu {
     .staff-doctor .el__header .section__sub {
       font-size: 45px;
       color: #b8ac7d; }
+      @media (min-width: 780px) {
+        .staff-doctor .el__header .section__sub {
+          font-size: 55px; } }
   .staff-doctor .el__thumb {
     display: flex;
     flex-wrap: wrap;
@@ -2983,6 +3236,10 @@ body.show-menu {
       font-family: "Cinzel", serif;
       line-height: 30px;
       color: #00A99D; }
+      @media (min-width: 780px) {
+        .staff-doctor .el__avatar .name {
+          font-size: 37px;
+          line-height: 40px; } }
   .staff-doctor .el__text {
     width: 28%;
     display: flex;
@@ -2995,16 +3252,26 @@ body.show-menu {
       font-weight: bold;
       letter-spacing: 5px;
       margin: 0; }
+      @media (min-width: 780px) {
+        .staff-doctor .el__text p {
+          font-size: 30px; } }
   .staff-doctor .el__content {
     padding: 0 30px 0 60px; }
     .staff-doctor .el__content p {
       text-align: right;
       font-size: 21px;
       font-weight: bold; }
+      @media (min-width: 780px) {
+        .staff-doctor .el__content p {
+          font-size: 30px; } }
   .staff-doctor .el__excerpt {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 20px; }
+    @media (min-width: 780px) {
+      .staff-doctor .el__excerpt {
+        font-size: 18px;
+        line-height: 26px; } }
 
 .el__box-text {
   margin-left: 60px;
@@ -3019,9 +3286,17 @@ body.show-menu {
     border-bottom: 2px solid rgba(184, 172, 125, 0.7);
     margin-bottom: 12px;
     padding-bottom: 5px; }
+    @media (min-width: 780px) {
+      .el__box-text .title {
+        font-size: 22px;
+        line-height: 26px; } }
   .el__box-text p {
     font-size: 16px;
     line-height: 24px; }
+    @media (min-width: 780px) {
+      .el__box-text p {
+        font-size: 18px;
+        line-height: 26px; } }
   .el__box-text-item:first-child {
     margin-bottom: 20px; }
 .el__doctor-item {
@@ -3036,14 +3311,25 @@ body.show-menu {
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 5px; }
+      @media (min-width: 780px) {
+        .el__doctor-item .content .sub {
+          font-size: 18px; } }
     .el__doctor-item .content .title {
       font-size: 21px;
       font-weight: bold;
       line-height: 30px;
       margin-bottom: 15px; }
+      @media (min-width: 780px) {
+        .el__doctor-item .content .title {
+          font-size: 28px;
+          line-height: 35px; } }
     .el__doctor-item .content p {
       font-size: 16px;
       line-height: 24px; }
+      @media (min-width: 780px) {
+        .el__doctor-item .content p {
+          font-size: 18px;
+          line-height: 26px; } }
   .el__doctor-item .avatar {
     width: 40%; }
   .el__doctor-item.style-2 {
@@ -3076,6 +3362,10 @@ body.show-menu {
   line-height: 24px;
   padding: 30px 20px;
   background: rgba(0, 169, 157, 0.6); }
+  @media (min-width: 780px) {
+    .el__doctor-info .content {
+      font-size: 18px;
+      line-height: 26px; } }
 
 .staff-doctor-2 {
   padding: 50px 0 0; }
@@ -3086,6 +3376,9 @@ body.show-menu {
       font-size: 45px;
       color: #b8ac7d;
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
+      @media (min-width: 780px) {
+        .staff-doctor-2 .el__header .section__sub {
+          font-size: 55px; } }
   .staff-doctor-2 .el__box {
     position: relative;
     padding: 50px 0 0;

@@ -8,6 +8,10 @@
             .section__sub {
                 font-size: 45px;
                 color: $yellow-pri;
+
+                @media (min-width: 780px) {
+                    font-size: 55px;
+                }
             }
 
             margin-bottom: 15px;
@@ -40,6 +44,10 @@
                 font-size: 45px;
                 color: $yellow-pri;
                 text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+
+                @media (min-width: 780px) {
+                    font-size: 55px;
+                }
             }
         }
         &__box {
@@ -96,10 +104,19 @@
             font-weight: bold;
             margin-bottom: 20px;
             text-align: center;
+
+            @media (min-width: 780px) {
+                font-size: 30px;
+            }
         }
         &__excerpt {
             font-size: 16px;
             line-height: 24px;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
 
             @media (min-width: 992px) {
                 text-align: center;
@@ -117,6 +134,10 @@
                 font-size: 45px;
                 color: $yellow-pri;
                 text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
+
+                @media (min-width: 780px) {
+                    font-size: 55px;
+                }
             }
         }
         &__box {
@@ -163,6 +184,11 @@
             align-items: flex-end;
             font-size: 16px;
             line-height: 24px;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
     }
 }

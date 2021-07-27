@@ -11,6 +11,10 @@
                 font-size: 45px;
                 color: $yellow-pri;
                 text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+
+                @media (min-width: 780px) {
+                    font-size: 55px;
+                }
             }
         }
 
@@ -57,6 +61,11 @@
             font-size: 16px;
             line-height: 24px;
             text-align: justify;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
     }
     .slick-dots {
@@ -78,12 +87,22 @@
             color: #b8ac7d;
             margin-bottom: 5px;
             text-align: center;
+
+            @media (min-width: 780px) {
+                font-size: 34px;
+                line-height: 40px;
+            }
         }
         &__sub {
             font-size: 16px;
             font-weight: bold;
             margin-bottom: 15px;
             text-align: center;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
         &__thumb {
             margin-bottom: 15px;
@@ -93,6 +112,11 @@
             line-height: 24px;
             margin-bottom: 30px;
             text-align: justify;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
     }
 }
@@ -107,6 +131,10 @@
                 font-size: 45px;
                 color: $yellow-pri;
                 text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
+
+                @media (min-width: 780px) {
+                    font-size: 60px;
+                }
             }
         }
         &__box {
@@ -148,6 +176,11 @@
             padding: 7px 5px 7px 10px;
             color: $white;
             background: $color-green;
+
+            @media (min-width: 780px) {
+                font-size: 30px;
+                line-height: 44px;
+            }
         }
 
         &__excerpt {
@@ -156,6 +189,11 @@
             background: $white;
             padding: 20px 30px;
             text-align: justify;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
     }
 }
@@ -176,10 +214,18 @@
                 text-transform: uppercase;
                 margin-bottom: 5px;
 
+                @media (min-width: 780px) {
+                    font-size: 20px;
+                }
+
             }
             .title {
                 font-size: 24px;
                 font-weight: bold;
+
+                @media (min-width: 780px) {
+                    font-size: 34px;
+                }
             }
         }
 
@@ -204,12 +250,21 @@
             color: $yellow-pri;
             padding: 5px 8px;
             margin-bottom: 10px;
+
+            @media (min-width: 780px) {
+                font-size: 30px;
+            }
         }
 
         &__excerpt {
             font-size: 16px;
             line-height: 24px;
             text-align: justify;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
     }
 }

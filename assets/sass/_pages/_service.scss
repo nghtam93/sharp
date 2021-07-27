@@ -26,6 +26,10 @@
         font-size: 12.5px;
         background: rgba(184, 172, 125, 0.6);
 
+        @media (min-width: 780px) {
+            font-size: 16px;
+        }
+
         img {
             max-width: 15px;
         }
@@ -56,6 +60,11 @@
             z-index: 1;
             position: relative;
             padding: 15px 0 5px;
+
+            @media (min-width: 780px) {
+                font-size: 33px;
+                line-height: 35px;
+            }
         }
         &__thumb {
             position: relative;
@@ -68,6 +77,10 @@
                 font-size: 26px;
                 font-weight: 500;
                 font-family: "Cinzel", serif;
+
+                @media (min-width: 780px) {
+                    font-size: 36px;
+                }
 
                 @media (min-width: 992px) {
                     br {
@@ -89,6 +102,10 @@
                 font-weight: bold;
                 color: $black;
 
+                @media (min-width: 780px) {
+                    font-size: 25px;
+                }
+
                 &:before {
                     position: absolute;
                     left: 0;
@@ -97,6 +114,10 @@
                     height: 11px;
                     content: "";
                     background: $color-green;
+
+                    @media (min-width: 780px) {
+                        top: 19px;
+                    }
                 }
             }
 
@@ -110,6 +131,11 @@
             line-height: 24px;
             padding: 20px 30px 20px 0;
             text-align: justify;
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
+
         }
     }
 
@@ -123,6 +149,11 @@
             font-weight: bold;
             line-height: 27px;
             margin-bottom: 10px;
+
+            @media (min-width: 780px) {
+                font-size: 25px;
+                line-height: 30px;
+            }
         }
 
         .excerpt {
@@ -130,6 +161,11 @@
             line-height: 24px;
             text-align: justify;
             margin-bottom: 10px;
+
+            @media (min-width: 780px) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
 
         .btn {
