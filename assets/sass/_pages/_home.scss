@@ -421,7 +421,7 @@
 
                 @media (min-width: 780px) {
                     font-size: 25px;
-                    min-height: 172%;
+                    min-height: 183%;
                 }
 
                 @media (max-width: 376px) {
@@ -508,6 +508,10 @@
         &__bg {
             background: rgba(0, 169, 157, 0.3);
             padding: 10px 5px;
+
+            @media (min-width: 780px) {
+                padding: 20px 5px;
+            }
 
             .phone {
                 font-weight: bold;
@@ -597,6 +601,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media (min-width: 780px) {
+                height: 46px;
+            }
 
         }
         p {
@@ -1117,6 +1125,8 @@
 
             @media (min-width: 780px) {
                 font-size: 18px;
+                text-align: center;
+                margin-bottom: 20px;
             }
         }
 

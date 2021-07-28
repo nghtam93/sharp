@@ -27,7 +27,7 @@
         background: rgba(184, 172, 125, 0.6);
 
         @media (min-width: 780px) {
-            font-size: 16px;
+            font-size: 18px;
         }
 
         img {
@@ -203,6 +203,10 @@
             font-family: "Cinzel", serif;
             font-weight: 500;
             margin-bottom: 20px;
+
+            @media (min-width: 780px) {
+                font-size: 24px;
+            }
         }
 
         &__title {
@@ -211,6 +215,11 @@
             line-height: 40px;
             font-weight: 700;
             margin-bottom: 10px;
+
+            @media (min-width: 780px) {
+                font-size: 37px;
+                line-height: 50px;
+            }
         }
 
         &__excerpt {
