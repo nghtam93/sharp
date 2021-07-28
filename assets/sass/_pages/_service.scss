@@ -27,7 +27,7 @@
         background: rgba(184, 172, 125, 0.6);
 
         @media (min-width: 780px) {
-            font-size: 18px;
+            font-size: 22px;
         }
 
         img {
@@ -103,7 +103,7 @@
                 color: $black;
 
                 @media (min-width: 780px) {
-                    font-size: 25px;
+                    font-size: 29px;
                 }
 
                 &:before {
@@ -116,7 +116,7 @@
                     background: $color-green;
 
                     @media (min-width: 780px) {
-                        top: 19px;
+                        top: 14px;
                     }
                 }
             }
@@ -132,8 +132,8 @@
             padding: 20px 30px 20px 0;
             text-align: justify;
             @media (min-width: 780px) {
-                font-size: 18px;
-                line-height: 26px;
+                font-size: 26px;
+                line-height: 32px;
             }
 
         }
@@ -151,8 +151,8 @@
             margin-bottom: 10px;
 
             @media (min-width: 780px) {
-                font-size: 25px;
-                line-height: 30px;
+                font-size: 29px;
+                line-height: 38px;
             }
         }
 
@@ -163,8 +163,8 @@
             margin-bottom: 10px;
 
             @media (min-width: 780px) {
-                font-size: 18px;
-                line-height: 26px;
+                font-size: 26px;
+                line-height: 32px;
             }
         }
 
@@ -205,7 +205,8 @@
             margin-bottom: 20px;
 
             @media (min-width: 780px) {
-                font-size: 24px;
+                font-size: 27px;
+                line-height: 34px;
             }
         }
 

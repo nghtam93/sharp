@@ -10,7 +10,8 @@ body{
     line-height: 1.8;
 
     @media (min-width: 780px) {
-        font-size: 18px;
+        font-size: 26px;
+        line-height: 34px;
     }
 
     @media (min-width: 991px) {
@@ -105,7 +106,8 @@ img {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
     @media (min-width: 780px) {
-        font-size: 18px;
+        font-size: 26px;
+        line-height: 32px;
     }
 }
 .btn-primary{
@@ -131,6 +133,11 @@ img {
     }
     &:hover{
         background: rgba(184, 172, 125, 1);
+    }
+
+    @media (min-width: 780px) {
+        height: 45px;
+        line-height: 45px;
     }
 }
 

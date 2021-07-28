@@ -1328,7 +1328,8 @@ body {
   line-height: 1.8; }
   @media (min-width: 780px) {
     body {
-      font-size: 18px; } }
+      font-size: 26px;
+      line-height: 34px; } }
   @media (min-width: 991px) {
     body {
       background: #b5eeea; } }
@@ -1411,7 +1412,8 @@ img {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
   @media (min-width: 780px) {
     .btn {
-      font-size: 18px; } }
+      font-size: 26px;
+      line-height: 32px; } }
 
 .btn-primary {
   height: 40px;
@@ -1433,6 +1435,10 @@ img {
     line-height: 30px; }
   .btn-primary:hover {
     background: #b8ac7d; }
+  @media (min-width: 780px) {
+    .btn-primary {
+      height: 45px;
+      line-height: 45px; } }
 
 .text-center {
   text-align: center !important; }
@@ -1721,8 +1727,8 @@ body.show-menu {
   margin: 0 auto; }
   @media (min-width: 780px) {
     .footer {
-      font-size: 18px;
-      line-height: 44px; } }
+      font-size: 26px;
+      line-height: 60px; } }
   .footer__menu {
     display: grid;
     grid-template-columns: 50fr 50fr;
@@ -1752,7 +1758,8 @@ body.show-menu {
     margin: 0 auto; }
     @media (min-width: 780px) {
       .footer__copyright {
-        font-size: 16px; } }
+        font-size: 24px;
+        line-height: 38px; } }
 
 /*back to top*/
 .back__to--top {
@@ -1794,7 +1801,7 @@ body.show-menu {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57); }
     @media (min-width: 780px) {
       .home-banner .title-banner {
-        font-size: 20px; } }
+        font-size: 24px; } }
   .home-banner .banner-text {
     position: absolute;
     left: 0;
@@ -1916,7 +1923,7 @@ body.show-menu {
     padding-right: 50px; }
     @media (min-width: 780px) {
       .home-intro__text {
-        font-size: 20px; } }
+        font-size: 24px; } }
     @media (max-width: 600px) {
       .home-intro__text {
         padding-right: 23px; } }
@@ -1969,7 +1976,7 @@ body.show-menu {
   margin-bottom: 10px; }
   @media (min-width: 780px) {
     .table-schedule {
-      font-size: 22px; } }
+      font-size: 26px; } }
   .table-schedule th, .table-schedule td {
     text-align: left;
     vertical-align: middle;
@@ -2045,7 +2052,8 @@ body.show-menu {
     line-height: 1.8; }
     @media (min-width: 780px) {
       .home-info .el__item {
-        font-size: 18px; } }
+        font-size: 26px;
+        line-height: 32px; } }
     .home-info .el__item:first-child {
       border-top: 2px solid rgba(26, 26, 26, 0.6); }
     .home-info .el__item__title {
@@ -2056,6 +2064,10 @@ body.show-menu {
       line-height: 24px;
       font-size: 16px;
       color: #1a1a1a; }
+      @media (min-width: 780px) {
+        .home-info .el__item__excerpt {
+          font-size: 26px;
+          line-height: 32px; } }
 
 .home-concept {
   padding: 18% 30px 8%;
@@ -2085,8 +2097,8 @@ body.show-menu {
         margin: -12px 0 0 0 !important; }
       @media (min-width: 780px) {
         .home-concept .el__content p {
-          font-size: 25px;
-          min-height: 183%; } }
+          font-size: 30px;
+          min-height: 198%; } }
       @media (max-width: 376px) {
         .home-concept .el__content p {
           min-height: 125%; } }
@@ -2105,7 +2117,8 @@ body.show-menu {
     font-family: 'DNPShueiMinPr6-M', sans-serif; }
     @media (min-width: 780px) {
       .home-information .el__title {
-        font-size: 38px; } }
+        font-size: 38px;
+        line-height: 45px; } }
   .home-information .el__excerpt {
     font-size: 16px;
     color: #1A1A1A;
@@ -2114,7 +2127,7 @@ body.show-menu {
     @media (min-width: 780px) {
       .home-information .el__excerpt {
         font-size: 26px;
-        line-height: 35px; } }
+        line-height: 38px; } }
   .home-information .el__box {
     border: 4px solid rgba(184, 172, 125, 0.8);
     padding: 10px 10px;
@@ -2126,7 +2139,8 @@ body.show-menu {
       letter-spacing: 2px; }
       @media (min-width: 780px) {
         .home-information .el__box .text {
-          font-size: 30px; } }
+          font-size: 34px;
+          line-height: 40px; } }
     .home-information .el__box .label {
       margin-bottom: 5px; }
       .home-information .el__box .label span {
@@ -2157,7 +2171,8 @@ body.show-menu {
       margin-top: 7px; }
       @media (min-width: 780px) {
         .home-information .el__bg .phone {
-          font-size: 24px; } }
+          font-size: 28px;
+          line-height: 40px; } }
     .home-information .el__bg .green span {
       background: #00A99D;
       color: #fff;
@@ -2168,7 +2183,8 @@ body.show-menu {
       display: inline-block; }
       @media (min-width: 780px) {
         .home-information .el__bg .green span {
-          font-size: 24px; } }
+          font-size: 28px;
+          line-height: 42px; } }
   .home-information .home-intro {
     margin-left: 0;
     margin-top: 10px; }
@@ -2230,7 +2246,7 @@ body.show-menu {
     font-family: 'cambria'; }
     @media (min-width: 780px) {
       .home-contact__link .btn {
-        font-size: 26px; } }
+        font-size: 34px; } }
   .home-contact-text {
     font-size: 16px;
     margin-bottom: 10px; }
@@ -2296,7 +2312,7 @@ body.show-menu {
     color: #1A1A1A; }
     @media (min-width: 780px) {
       .home-greeting .el__excerpt {
-        font-size: 24px;
+        font-size: 26px;
         line-height: 32px; } }
   .home-greeting .el__user {
     position: relative;
@@ -2311,7 +2327,7 @@ body.show-menu {
       font-size: 16px; }
       @media (min-width: 780px) {
         .home-greeting .el__user__content {
-          font-size: 18px; } }
+          font-size: 26px; } }
     .home-greeting .el__user__position {
       display: inline-block;
       font-weight: bold;
@@ -2384,8 +2400,8 @@ body.show-menu {
   padding: 20px 25px; }
   @media (min-width: 780px) {
     .home-featured .el__excerpt {
-      font-size: 18px;
-      line-height: 28px; } }
+      font-size: 26px;
+      line-height: 32px; } }
 .home-featured .el__readmore {
   width: 50px;
   height: 50px;
@@ -2439,7 +2455,8 @@ body.show-menu {
     text-align: center; }
     @media (min-width: 780px) {
       .home-service .el__title {
-        font-size: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
 
 .home-sns {
   margin: 0 30px 25px;
@@ -2457,7 +2474,8 @@ body.show-menu {
     background: #B8AC7D; }
     @media (min-width: 780px) {
       .home-sns .el__title {
-        font-size: 46px; } }
+        font-size: 46px;
+        line-height: 60px; } }
   .home-sns .el__content {
     display: flex;
     justify-content: center;
@@ -2502,7 +2520,8 @@ body.show-menu {
       font-weight: bold; }
       @media (min-width: 780px) {
         .home-clinic .el__header .section__sub {
-          font-size: 24px; } }
+          font-size: 26px;
+          line-height: 32px; } }
   .home-clinic .el__info {
     padding: 25px 0 30px; }
     .home-clinic .el__info th {
@@ -2513,7 +2532,8 @@ body.show-menu {
       font-weight: 400; }
       @media (min-width: 780px) {
         .home-clinic .el__info th {
-          font-size: 18px; } }
+          font-size: 26px;
+          line-height: 32px; } }
     .home-clinic .el__info td {
       font-size: 16px;
       color: #1A1A1A !important; }
@@ -2521,7 +2541,8 @@ body.show-menu {
         color: #1A1A1A !important; }
       @media (min-width: 780px) {
         .home-clinic .el__info td {
-          font-size: 18px; } }
+          font-size: 26px;
+          line-height: 32px; } }
   .home-clinic .el__content {
     background: rgba(0, 167, 155, 0.8);
     padding: 20px; }
@@ -2551,13 +2572,15 @@ body.show-menu {
     margin-bottom: 10px; }
     @media (min-width: 780px) {
       .home-clinic .el__title {
-        font-size: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
   .home-clinic .el__excerpt {
     font-size: 16px;
     color: #000 !important; }
     @media (min-width: 780px) {
       .home-clinic .el__excerpt {
-        font-size: 17px; } }
+        font-size: 26px;
+        line-height: 32px; } }
     .home-clinic .el__excerpt a {
       color: #1A1A1A !important; }
 
@@ -2585,7 +2608,8 @@ body.show-menu {
     color: #1A1A1A; }
     @media (min-width: 780px) {
       .home-facilities .el__excerpt {
-        font-size: 18px;
+        font-size: 26px;
+        line-height: 32px;
         text-align: center;
         margin-bottom: 20px; } }
   .home-facilities .el__slider {
@@ -2633,7 +2657,7 @@ body.show-menu {
       font-size: 14px; }
       @media (min-width: 780px) {
         .home-facilities .el__link .btn {
-          font-size: 16px; } }
+          font-size: 24px; } }
 
 .section__title {
   font-size: 28px;
@@ -2672,7 +2696,8 @@ body.show-menu {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57); }
     @media (min-width: 780px) {
       .section__sub.style-2 {
-        font-size: 60px; } }
+        font-size: 64px;
+        line-height: 70px; } }
 
 .page-header {
   position: relative;
@@ -2710,7 +2735,7 @@ body.show-menu {
       padding: 1px 37px 3px; }
       @media (min-width: 780px) {
         .page-header__content .sub {
-          font-size: 26px;
+          font-size: 28px;
           line-height: 30px; } }
 
 .access-map {
@@ -2724,7 +2749,8 @@ body.show-menu {
       color: #b8ac7d; }
       @media (min-width: 780px) {
         .access-map .el__header .section__sub {
-          font-size: 55px; } }
+          font-size: 55px;
+          line-height: 60px; } }
   .access-map .el__thumb {
     margin-bottom: 20px; }
   .access-map .el__feature img {
@@ -2734,6 +2760,9 @@ body.show-menu {
     .access-map .el__link .btn {
       width: 197px;
       margin: 0 auto; }
+      @media (min-width: 780px) {
+        .access-map .el__link .btn {
+          min-width: 350px; } }
 
 .access-transport {
   padding: 50px 0 0; }
@@ -2746,7 +2775,8 @@ body.show-menu {
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
       @media (min-width: 780px) {
         .access-transport .el__header .section__sub {
-          font-size: 55px; } }
+          font-size: 55px;
+          line-height: 60px; } }
   .access-transport .el__box {
     position: relative;
     padding: 50px 30px 0;
@@ -2790,14 +2820,15 @@ body.show-menu {
     text-align: center; }
     @media (min-width: 780px) {
       .access-transport .el__title {
-        font-size: 30px; } }
+        font-size: 30px;
+        line-height: 34px; } }
   .access-transport .el__excerpt {
     font-size: 16px;
     line-height: 24px; }
     @media (min-width: 780px) {
       .access-transport .el__excerpt {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
     @media (min-width: 992px) {
       .access-transport .el__excerpt {
         text-align: center; } }
@@ -2813,7 +2844,8 @@ body.show-menu {
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); }
       @media (min-width: 780px) {
         .access-route .el__header .section__sub {
-          font-size: 55px; } }
+          font-size: 55px;
+          line-height: 60px; } }
   .access-route .el__box {
     position: relative;
     padding: 50px 0 30px;
@@ -2852,8 +2884,8 @@ body.show-menu {
     line-height: 24px; }
     @media (min-width: 780px) {
       .access-route .el__content {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
 
 .clinic-clinic {
   background: url("../img/clinic/bg-clinic.jpg") no-repeat center;
@@ -2869,7 +2901,8 @@ body.show-menu {
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
       @media (min-width: 780px) {
         .clinic-clinic .el__header .section__sub {
-          font-size: 55px; } }
+          font-size: 55px;
+          line-height: 60px; } }
   .clinic-clinic .el__slider .el__item {
     margin-right: 30px; }
   .clinic-clinic .el__slider .slick-arrow {
@@ -2895,6 +2928,10 @@ body.show-menu {
       line-height: 38px;
       font-weight: bold;
       height: 52px; }
+      @media (min-width: 780px) {
+        .clinic-clinic .el__link a {
+          font-size: 34px;
+          height: 60px; } }
   .clinic-clinic .el__excerpt {
     padding: 30px;
     font-size: 16px;
@@ -2902,8 +2939,8 @@ body.show-menu {
     text-align: justify; }
     @media (min-width: 780px) {
       .clinic-clinic .el__excerpt {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
   .clinic-clinic .slick-dots li.slick-active button:before {
     background-color: #00A99D; }
 
@@ -2928,8 +2965,8 @@ body.show-menu {
     text-align: center; }
     @media (min-width: 780px) {
       .clinic-content-text .el__sub {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
   .clinic-content-text .el__thumb {
     margin-bottom: 15px; }
   .clinic-content-text .el__excerpt {
@@ -2939,8 +2976,8 @@ body.show-menu {
     text-align: justify; }
     @media (min-width: 780px) {
       .clinic-content-text .el__excerpt {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
 
 .clinic-facilities {
   padding: 50px 0 0; }
@@ -2953,7 +2990,7 @@ body.show-menu {
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.57); }
       @media (min-width: 780px) {
         .clinic-facilities .el__header .section__sub {
-          font-size: 60px; } }
+          font-size: 55px; } }
   .clinic-facilities .el__box {
     position: relative;
     padding: 50px 0 0;
@@ -2986,8 +3023,8 @@ body.show-menu {
     background: #00A99D; }
     @media (min-width: 780px) {
       .clinic-facilities .el__title {
-        font-size: 30px;
-        line-height: 44px; } }
+        font-size: 34px;
+        line-height: 50px; } }
   .clinic-facilities .el__excerpt {
     font-size: 16px;
     line-height: 24px;
@@ -2996,8 +3033,8 @@ body.show-menu {
     text-align: justify; }
     @media (min-width: 780px) {
       .clinic-facilities .el__excerpt {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
 
 .clinic-emergency {
   padding: 50px 0 5px;
@@ -3014,13 +3051,15 @@ body.show-menu {
       margin-bottom: 5px; }
       @media (min-width: 780px) {
         .clinic-emergency .el__header .sub {
-          font-size: 20px; } }
+          font-size: 27px;
+          line-height: 32px; } }
     .clinic-emergency .el__header .title {
       font-size: 24px;
       font-weight: bold; }
       @media (min-width: 780px) {
         .clinic-emergency .el__header .title {
-          font-size: 34px; } }
+          font-size: 34px;
+          line-height: 42px; } }
   .clinic-emergency .el__item {
     display: flex;
     flex-wrap: wrap;
@@ -3039,15 +3078,16 @@ body.show-menu {
     margin-bottom: 10px; }
     @media (min-width: 780px) {
       .clinic-emergency .el__title {
-        font-size: 30px; } }
+        font-size: 30px;
+        line-height: 45px; } }
   .clinic-emergency .el__excerpt {
     font-size: 16px;
     line-height: 24px;
     text-align: justify; }
     @media (min-width: 780px) {
       .clinic-emergency .el__excerpt {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
 
 .service-menu {
   padding: 50px 30px;
@@ -3073,7 +3113,7 @@ body.show-menu {
     background: rgba(184, 172, 125, 0.6); }
     @media (min-width: 780px) {
       .service-menu__item {
-        font-size: 18px; } }
+        font-size: 22px; } }
     .service-menu__item img {
       max-width: 15px; }
 
@@ -3129,7 +3169,7 @@ body.show-menu {
       color: #000; }
       @media (min-width: 780px) {
         .service__caries .el__list li {
-          font-size: 25px; } }
+          font-size: 29px; } }
       .service__caries .el__list li:before {
         position: absolute;
         left: 0;
@@ -3140,7 +3180,7 @@ body.show-menu {
         background: #00A99D; }
         @media (min-width: 780px) {
           .service__caries .el__list li:before {
-            top: 19px; } }
+            top: 14px; } }
     @media (min-width: 992px) {
       .service__caries .el__list {
         margin-top: -8px; } }
@@ -3151,8 +3191,8 @@ body.show-menu {
     text-align: justify; }
     @media (min-width: 780px) {
       .service__caries .el__excerpt {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
   .service__caries__content {
     background: rgba(184, 172, 125, 0.4);
     padding: 20px;
@@ -3164,8 +3204,8 @@ body.show-menu {
       margin-bottom: 10px; }
       @media (min-width: 780px) {
         .service__caries__content .title {
-          font-size: 25px;
-          line-height: 30px; } }
+          font-size: 29px;
+          line-height: 38px; } }
     .service__caries__content .excerpt {
       font-size: 16px;
       line-height: 24px;
@@ -3173,8 +3213,8 @@ body.show-menu {
       margin-bottom: 10px; }
       @media (min-width: 780px) {
         .service__caries__content .excerpt {
-          font-size: 18px;
-          line-height: 26px; } }
+          font-size: 26px;
+          line-height: 32px; } }
     .service__caries__content .btn {
       width: 197px;
       margin-left: auto; }
@@ -3204,7 +3244,8 @@ body.show-menu {
     margin-bottom: 20px; }
     @media (min-width: 780px) {
       .service-higher .el__sub {
-        font-size: 24px; } }
+        font-size: 27px;
+        line-height: 34px; } }
   .service-higher .el__title {
     text-align: center;
     font-size: 27px;
@@ -3231,7 +3272,8 @@ body.show-menu {
       color: #b8ac7d; }
       @media (min-width: 780px) {
         .staff-doctor .el__header .section__sub {
-          font-size: 55px; } }
+          font-size: 55px;
+          line-height: 60px; } }
   .staff-doctor .el__thumb {
     display: flex;
     flex-wrap: wrap;
@@ -3266,7 +3308,8 @@ body.show-menu {
       margin: 0; }
       @media (min-width: 780px) {
         .staff-doctor .el__text p {
-          font-size: 30px; } }
+          font-size: 34px;
+          line-height: 46px; } }
   .staff-doctor .el__content {
     padding: 0 30px 0 60px; }
     .staff-doctor .el__content p {
@@ -3275,15 +3318,15 @@ body.show-menu {
       font-weight: bold; }
       @media (min-width: 780px) {
         .staff-doctor .el__content p {
-          font-size: 30px; } }
+          font-size: 31px; } }
   .staff-doctor .el__excerpt {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 20px; }
     @media (min-width: 780px) {
       .staff-doctor .el__excerpt {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
 
 .el__box-text {
   margin-left: 60px;
@@ -3300,15 +3343,15 @@ body.show-menu {
     padding-bottom: 5px; }
     @media (min-width: 780px) {
       .el__box-text .title {
-        font-size: 22px;
-        line-height: 26px; } }
+        font-size: 27px;
+        line-height: 32px; } }
   .el__box-text p {
     font-size: 16px;
     line-height: 24px; }
     @media (min-width: 780px) {
       .el__box-text p {
-        font-size: 18px;
-        line-height: 26px; } }
+        font-size: 26px;
+        line-height: 32px; } }
   .el__box-text-item:first-child {
     margin-bottom: 20px; }
 .el__doctor-item {
@@ -3325,7 +3368,8 @@ body.show-menu {
       margin-bottom: 5px; }
       @media (min-width: 780px) {
         .el__doctor-item .content .sub {
-          font-size: 18px; } }
+          font-size: 26px;
+          line-height: 32px; } }
     .el__doctor-item .content .title {
       font-size: 21px;
       font-weight: bold;
@@ -3333,15 +3377,15 @@ body.show-menu {
       margin-bottom: 15px; }
       @media (min-width: 780px) {
         .el__doctor-item .content .title {
-          font-size: 28px;
-          line-height: 35px; } }
+          font-size: 31px;
+          line-height: 40px; } }
     .el__doctor-item .content p {
       font-size: 16px;
       line-height: 24px; }
       @media (min-width: 780px) {
         .el__doctor-item .content p {
-          font-size: 18px;
-          line-height: 26px; } }
+          font-size: 26px;
+          line-height: 32px; } }
   .el__doctor-item .avatar {
     width: 40%; }
   .el__doctor-item.style-2 {
@@ -3376,8 +3420,8 @@ body.show-menu {
   background: rgba(0, 169, 157, 0.6); }
   @media (min-width: 780px) {
     .el__doctor-info .content {
-      font-size: 18px;
-      line-height: 26px; } }
+      font-size: 26px;
+      line-height: 32px; } }
 
 .staff-doctor-2 {
   padding: 50px 0 0; }

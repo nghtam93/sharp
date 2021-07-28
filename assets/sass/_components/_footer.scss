@@ -8,8 +8,8 @@
     margin: 0 auto;
 
     @media (min-width: 780px) {
-        font-size: 18px;
-        line-height: 44px;
+        font-size: 26px;
+        line-height: 60px;
     }
 
     &__menu {
@@ -52,7 +52,8 @@
         max-width: 960px;
         margin: 0 auto;
         @media (min-width: 780px) {
-            font-size: 16px;
+            font-size: 24px;
+            line-height: 38px;
         }
 
     }

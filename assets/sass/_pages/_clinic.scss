@@ -14,6 +14,7 @@
 
                 @media (min-width: 780px) {
                     font-size: 55px;
+                    line-height: 60px;
                 }
             }
         }
@@ -53,6 +54,11 @@
                 line-height: 38px;
                 font-weight: bold;
                 height: 52px;
+
+                @media (min-width: 780px) {
+                    font-size: 34px;
+                    height: 60px;
+                }
             }
         }
 
@@ -63,8 +69,8 @@
             text-align: justify;
 
             @media (min-width: 780px) {
-                font-size: 18px;
-                line-height: 26px;
+                font-size: 26px;
+                line-height: 32px;
             }
         }
     }
@@ -100,8 +106,8 @@
             text-align: center;
 
             @media (min-width: 780px) {
-                font-size: 18px;
-                line-height: 26px;
+                font-size: 26px;
+                line-height: 32px;
             }
         }
         &__thumb {
@@ -114,8 +120,8 @@
             text-align: justify;
 
             @media (min-width: 780px) {
-                font-size: 18px;
-                line-height: 26px;
+                font-size: 26px;
+                line-height: 32px;
             }
         }
     }
@@ -133,7 +139,7 @@
                 text-shadow: 0px 0px 10px rgba(255,255,255,0.57);
 
                 @media (min-width: 780px) {
-                    font-size: 60px;
+                    font-size: 55px;
                 }
             }
         }
@@ -178,8 +184,8 @@
             background: $color-green;
 
             @media (min-width: 780px) {
-                font-size: 30px;
-                line-height: 44px;
+                font-size: 34px;
+                line-height: 50px;
             }
         }
 
@@ -191,8 +197,8 @@
             text-align: justify;
 
             @media (min-width: 780px) {
-                font-size: 18px;
-                line-height: 26px;
+                font-size: 26px;
+                line-height: 32px;
             }
         }
     }
@@ -215,7 +221,8 @@
                 margin-bottom: 5px;
 
                 @media (min-width: 780px) {
-                    font-size: 20px;
+                    font-size: 27px;
+                    line-height: 32px;
                 }
 
             }
@@ -225,6 +232,7 @@
 
                 @media (min-width: 780px) {
                     font-size: 34px;
+                    line-height: 42px;
                 }
             }
         }
@@ -253,6 +261,7 @@
 
             @media (min-width: 780px) {
                 font-size: 30px;
+                line-height: 45px;
             }
         }
 
@@ -262,8 +271,8 @@
             text-align: justify;
 
             @media (min-width: 780px) {
-                font-size: 18px;
-                line-height: 26px;
+                font-size: 26px;
+                line-height: 32px;
             }
         }
     }
