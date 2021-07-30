@@ -1660,6 +1660,11 @@ img {
     cursor: pointer; }
     .header .btn-menu img {
       max-width: 50px; }
+    @media (min-width: 780px) {
+      .header .btn-menu {
+        margin-bottom: -6px; }
+        .header .btn-menu img {
+          max-width: 70px; } }
     @media (max-width: 570px) {
       .header .btn-menu {
         margin-bottom: -7px; } }
@@ -1801,7 +1806,8 @@ body.show-menu {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57); }
     @media (min-width: 780px) {
       .home-banner .title-banner {
-        font-size: 24px; } }
+        font-size: 24px;
+        top: 20px; } }
   .home-banner .banner-text {
     position: absolute;
     left: 0;
@@ -1817,7 +1823,9 @@ body.show-menu {
       letter-spacing: 3px; }
       @media (min-width: 780px) {
         .home-banner .banner-text p {
-          font-size: 34px; } }
+          font-size: 50px;
+          line-height: 70px;
+          letter-spacing: 7px; } }
   .home-banner img {
     width: 100%; }
   @media (min-width: 992px) {
@@ -2095,9 +2103,11 @@ body.show-menu {
       line-height: normal; }
       .home-concept .el__content p.last-child {
         margin: -12px 0 0 0 !important; }
+      .home-concept .el__content p:last-child {
+        margin-right: 0 !important; }
       @media (min-width: 780px) {
         .home-concept .el__content p {
-          font-size: 30px;
+          font-size: 24px;
           min-height: 198%; } }
       @media (max-width: 376px) {
         .home-concept .el__content p {
@@ -2105,6 +2115,9 @@ body.show-menu {
       @media (max-width: 340px) {
         .home-concept .el__content p {
           min-height: 144%; } }
+    @media (min-width: 780px) {
+      .home-concept .el__content.style-2 p {
+        font-size: 30px; } }
 
 .home-information {
   padding: 50px 30px 20px; }
@@ -2272,6 +2285,9 @@ body.show-menu {
 .home-greeting {
   position: relative;
   padding: 50px 0 0px; }
+  @media (min-width: 780px) {
+    .home-greeting {
+      margin-bottom: -140px; } }
   .home-greeting .el__header {
     text-align: center;
     position: relative;
@@ -2292,6 +2308,9 @@ body.show-menu {
       left: 0;
       bottom: 80px;
       padding: 10px 15px 30px; }
+      @media (min-width: 780px) {
+        .home-greeting .el__content__text {
+          bottom: 15%; } }
   .home-greeting .el__title {
     font-size: 24px;
     line-height: 40px;
@@ -2305,21 +2324,25 @@ body.show-menu {
       margin-bottom: 3px; }
     @media (min-width: 780px) {
       .home-greeting .el__title {
-        font-size: 34px; } }
+        font-size: 50px;
+        line-height: 65px; } }
   .home-greeting .el__excerpt {
     font-size: 16px;
     line-height: 26px;
     color: #1A1A1A; }
     @media (min-width: 780px) {
       .home-greeting .el__excerpt {
-        font-size: 26px;
-        line-height: 32px; } }
+        font-size: 30px;
+        line-height: 43px; } }
   .home-greeting .el__user {
     position: relative;
     margin-right: 30px;
     border: 2px solid rgba(184, 172, 125, 0.8);
     z-index: 1;
     top: -95px; }
+    @media (min-width: 780px) {
+      .home-greeting .el__user {
+        top: -240px; } }
     .home-greeting .el__user__name {
       margin-left: -7px; }
     .home-greeting .el__user__content {
@@ -2345,6 +2368,9 @@ body.show-menu {
     width: 50px;
     height: 50px;
     z-index: 2; }
+    @media (min-width: 780px) {
+      .home-greeting .el__readmore {
+        bottom: 270px; } }
 
 .home-featured .el__header {
   margin-bottom: 17px; }
@@ -2384,8 +2410,8 @@ body.show-menu {
   font-weight: bold; }
   @media (min-width: 780px) {
     .home-featured .el__title {
-      font-size: 36px;
-      line-height: 50px; } }
+      font-size: 50px;
+      line-height: 65px; } }
   .home-featured .el__title span {
     display: inline-block;
     background: #fff;
@@ -2400,8 +2426,8 @@ body.show-menu {
   padding: 20px 25px; }
   @media (min-width: 780px) {
     .home-featured .el__excerpt {
-      font-size: 26px;
-      line-height: 32px; } }
+      font-size: 30px;
+      line-height: 43px; } }
 .home-featured .el__readmore {
   width: 50px;
   height: 50px;
