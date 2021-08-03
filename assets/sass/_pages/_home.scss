@@ -1266,3 +1266,17 @@
         }
     }
 }
+
+.el__thumb {
+  &.el__position--fixed {
+    .el__position {
+        position: fixed;
+        top: 0;
+        right: calc((100% - 960px) / 2);
+        z-index: 2;
+        @media (max-width: 960px) {
+          right: 0;
+        }
+    }
+  }
+}

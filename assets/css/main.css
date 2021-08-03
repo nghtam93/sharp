@@ -2696,6 +2696,15 @@ body.show-menu {
         .home-facilities .el__link .btn {
           font-size: 24px; } }
 
+.el__thumb.el__position--fixed .el__position {
+  position: fixed;
+  top: 0;
+  right: calc((100% - 960px) / 2);
+  z-index: 2; }
+  @media (max-width: 960px) {
+    .el__thumb.el__position--fixed .el__position {
+      right: 0; } }
+
 .section__title {
   font-size: 28px;
   font-weight: bold;
